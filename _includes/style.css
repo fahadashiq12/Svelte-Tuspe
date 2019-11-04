@@ -727,8 +727,8 @@ main .col-9 ul {
 
 @media screen and (max-width:549px) {
     #hero p {
-        font-size: 20px;
-        line-height: 26px
+		font-size: 1.6rem;
+		line-height: 1.8rem;
     }
 	#hero,
 	#hero img {
