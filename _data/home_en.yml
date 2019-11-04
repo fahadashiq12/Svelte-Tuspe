@@ -1,0 +1,80 @@
+---
+
+desc: Tuspe on raumalainen verkkosivustojen ja verkkokauppojen suunnitteluun ja toteutukseen sekä asiantuntevaan Google-hakukoneoptimointiin erikoistunut yritys.
+
+contact_phone: Ota rohkeasti yhteyttä puhelimitse
+contact_email: Lähetä viestiä sähköpostilla
+github_commits: Viimeisimmät lisäykset Tuspen lähdekoodiin
+
+who:
+  title: Hei, olen Timo. Hauska tavata.
+  content: "<p>Olen rakentanut verkkosivustoja ja verkkokauppoja yrityksille ja yhteisöille vuodesta 2014, jonka aikana olen tehnyt etätöitä mainostoimistoille, konsultoinut yrityksiä, luonut satoja verkkosivustoja sekä kehittänyt kumppanien kanssa verkkokaupan, varauskalenterin ja urheilualustan ProcessWirelle. Verkostosta löytyy tarvittaessa tekijöitä myös markkinointiin, yrityksen tai tuotteiden brändäykseen, grafiikkaan sekä sisällön tuottamiseen.</p><p>Käytettävissä etätyöhön sekä Rauman keskustassa toimistolla tai asiakkaan tiloissa.<br>Etsin mainostoimistoja verkostoon. <a href=\"mailto:{{ site.contact.email }}\" rel=\"nofollow\" title=\"Lähetä sähköpostia\">Ota rohkeasti yhteyttä</a> jos kaipaat verkkosivustoa tai yhteistyö kiinnostaa.</p>"
+
+featured:
+  - title: Verkkotohtorointi
+    img: websites
+    img_desc: Verkkosivut yritykselle ja yhteisölle
+    content: Toteutan kaikki projektit ketterästi kilpailukykyisellä hinnalla 'avaimet käteen'-periaatteella. Vanhan sivuston sisältö kopioidaan ja uusi sivusto on responsiivinen ja hakukoneoptimoitu.<br>ProcessWire, Wordpress, Drupal
+  - title: Verkkokaupat
+    img: webshops
+    img_desc: Verkkokauppa yritykselle ja yhteisölle
+    content: Tehosta myyntiä Tuspen monipuolisella verkkokaupalla Suomessa ja ulkomailla kilpailukykyiseen hintaan. Verkkokauppa kustomoidaan vastaamaan asiakkaan tarpeita, jonka lisäksi kaupassa on tarjolla rajattomasti kieli, tehokkaat kampanjat sekä tietenkin yleisimmät maksuvaihtoehdot ja kuljetukset.
+  - title: Ratsukko
+    img: ratsukko
+    img_desc: Varauskalenteri Ratsukko säästää aikaa ja helpottaa ratsastustuntien varaamista
+    content: Oletko saanut tarpeeksi soitoista ja sähköposteista talliyrittäjänä tai tallin asiakkaana? Ei hätää! Varauskalenteri Ratsukko säästää aikaa ja vaivaa tarjoten reaaliaikaisen järjestelmän missä asiakkaat voivat itse hoitaa tuntien varaukset ja poistot. Hyppää ratsaille kohti helpompaa arkea!
+  - title: Urheilu
+    img: sport
+    img_desc: Monipuolinen kotisivu kaiken kokoisille urheiluseuroille
+    content: Monipuolisilla ominaisuuksilla varustettu urheilualusta sopii kaiken kokoisille urheiluseuroille. Tarvittaessa mukaan myös verkkokauppa. Päivitys helppoa ja nopeaa sekä olemme automatisoineet mahdollisimman paljon toimintoja. Oletko valmis lähtemään mukaan voittajan tiimiin?
+  - title: Hakukoneoptimointi
+    img: seo
+    img_desc: Ykköspaikka hakukoneisiin
+    content: Kaikki projektit on teknisesti optimoitu hakukoneille ja vierailijoille, mutta sisältö on tärkein ja sen pitää olla uniikkia! Tarjoan vinkkejä miten voisit paremmin optimoida verkkosivustosi sekä verkoston kautta löytyy myös tarvittaessa ammattilainen kehittämään verkkosivuston sisältöä.
+  - title: Ylläpito
+    img: hosting
+    img_desc: Turvallinen ja luotettava koti verkkosivustolle
+    content: Dedikoidut palvelimme on suojattu teknisiltä ongelmilta sekä kaikki data varmuuskopioidaan kahdesti päivässä ulkoiselle palvelimelle. Turvallinen ja luotettava koti verkkosivustolle sekä samaan hintaan turvallisuuspäivitykset moduuleille ja pienet muutokset verkkosivustolle.
+
+work:
+  title: Asiakastöitä
+  content: "Projekteja missä olen ollut mukana.<br>Haluatko kuulla lisää? <a href=\"mailto:info@tuspe.com\" rel=\"nofollow\">Lähetä sähköpostia</a>."
+
+github:
+  title: Avoimen lähdekoodin projektit
+  content: "Olen luonut ja/tai koonnut koodia omiin tarpeisiin monista esimerkeitä, mutta näistä projekteista ei ollut sopivaa versiota olemassa ennen kuin päätin koodata oman version. Toivottavasti näistä on hyötyä myös sinulle."
+  items:
+    - title: Timo Anttila
+      url: https://github.com/tewdin/jekyll-timoanttila
+      lang: en
+      desc: Henkilökohtainen verkkosivustoni on hyvä esimerkki miten hyvin Jekyll ja Markdown taipuu monikieliseen ja monia sisältötyyppejä sisältävään projektiin.
+      tools: Jekyll, Markdown, AMP HTML, Netlify
+    - title: Pankkien viitenumero
+      url: https://github.com/tewdin/Finnish-Bank-Reference-Number
+      lang: fi
+      desc: Laskutusjärjestelmää tehdessä jouduin opettelemaan miten suomalaiset pankit luovat toimivia viitenumeroita. Kaavaa voi käyttää missä tahansa projektissa.
+    - title: Checkout Finland
+      url: https://github.com/tewdin/CheckoutAPIClient
+      lang: en
+      desc: Integraatio verkkokaupan ja Checkout Finlandin PSP API-rajapinnan väliin. Tilauksen tiedot POST-pyyntönä mikä palauttaa maksupainikkeet ja linkin.
+      tools: PHP
+      img: github-checkoutfinland
+    - title: Klarna Checkout
+      url: https://github.com/tewdin/KlarnaCheckout
+      lang: en
+      desc: PHP-integraatio verkkokaupan ja Klarna Checkoutin rajapinnan väliin. Tilauksen tiedot POST-pyyntönä mikä palauttaa maksulomakkeen (HTML / JavaScript).
+      tools: PHP, SQL
+      img: github-klarnacheckout
+      tools: PHP
+    - title: CSS / PW Framework
+      url: https://github.com/tewdin/CSS-Framework
+      lang: en
+      desc: Sisältää lähes jokaisessa projektissa tarvittavia tyylejä (flexbox, taulukot, murupolut jne.). Oletuksena käytössä kaikille uusille projekteille.
+      tools: CSS, PHP
+      img: github-css
+
+contact:
+  title: Uusi projekti?
+  content: Kiinnostaako yhteistyö? Ota yhteyttä ja keskustellaan miten voin auttaa.
+
+---
