@@ -1,4 +1,4 @@
-</main><footer><div class="container tc mini mb-4{% if page.ref != "home" %} pt-5{% endif %}">
+</main><footer><div class="container tc mini mb-4 pt-5">
 <h4 class="acme mb-4 text-white">{{ site.footer }}</h4><ul id="social_footer" class="socialmedia">
 {% for item in site.social %}
 <li class="inl"><a class="block circle text-white" href="{{ item.url }}" title="{{ item.name | capitalize }}: Timo Anttila" target="_blank" rel="me noopener"><div class="cell icon icon-{{ item.name }}"></div><span class="hidden">{{ item.name | capitalize }}</span></a></li>
@@ -10,4 +10,6 @@
 		<source srcset="/assets/images/whatsapp.jpg" type="image/jpeg"> 
 		<img src="/assets/images/whatsapp.jpg" alt="{{ page.slogan }}">
 	</picture>
-</a></body></html>
+</a>
+{% if page.ga %}<script async src="https://www.googletagmanager.com/gtag/js?id={{ page.ga }}"></script><script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '{{ page.ga }}');</script>{% endif %}
+</body></html>

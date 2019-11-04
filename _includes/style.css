@@ -225,7 +225,6 @@ aside h3 {
     display: block
 }
 
-.highlighter-rouge,
 .rel {
     position: relative
 }
@@ -506,7 +505,6 @@ aside #socialmedia .icon {
     background: radial-gradient(ellipse farthest-side, rgba(15, 14, 22, .3), rgba(16, 14, 23, 1))
 }
 
-.highlighter-rouge,
 main p {
     margin-bottom: 15px
 }
@@ -523,22 +521,6 @@ main p:last-child {
     background-color: #f8f1e9
 }
 
-.highlighter-rouge {
-    padding-left: 15px;
-    margin-left: -15px;
-    color: #000
-}
-
-.highlighter-rouge:before {
-    content: "";
-    width: 6px;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: linear-gradient(135deg, #3c5ca2 0, #201c29 100%)
-}
-
 .bor {
     border: 1px solid #312d3c;
     border-radius: 8px;
@@ -547,43 +529,6 @@ main p:last-child {
 
 .mini {
     max-width: 750px
-}
-
-table {
-    table-layout: fixed;
-    border-collapse: separate
-}
-
-td {
-    padding: 5px 0
-}
-
-td:first-child {
-    width: 150px
-}
-
-tr {
-    display: block;
-    border-bottom: 1px dashed #00f
-}
-
-.obj amp-img img {
-    object-fit: cover
-}
-
-pre {
-    white-space: pre-wrap;
-    word-wrap: break-word
-}
-
-#posts li {
-    border-bottom: 1px solid #aaa
-}
-
-#posts li:last-child {
-    border: 0;
-    margin-bottom: 0;
-    padding-bottom: 0
 }
 
 .contact {
@@ -601,7 +546,7 @@ pre {
 }
 
 #contact {
-    top: -45px
+    top: -50px
 }
 
 #breadcrumbs {
@@ -695,7 +640,7 @@ main .col-9 ul {
         margin-top: 2px
     }
     #hello {
-        padding: 80px 0 200px
+        padding: 80px 0 225px
     }
 }
 
