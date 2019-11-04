@@ -11,7 +11,7 @@ github_commits: Viimeisimmät lisäykset Tuspen lähdekoodiin
 
 who:
   title: Hei, olen Timo. Hauska tavata.
-  content: "<p>Olen rakentanut verkkosivustoja ja -kauppoja yrityksille ja yhteisöille vuodesta 2014, jonka aikana olen tehnyt etätöitä mainostoimistoille, konsultoinut yrityksiä, luonut satoja verkkosivustoja sekä kehittänyt kumppanien kanssa verkkokaupan, varauskalenterin ja urheilualustan ProcessWirelle. Verkostosta löytyy tarvittaessa tekijöitä myös markkinointiin, yrityksen tai tuotteiden brändäykseen, grafiikkaan sekä sisällön tuottamiseen.</p><p>Käytettävissä etätyöhön sekä Rauman keskustassa toimistolla tai asiakkaan tiloissa.<br>Etsin mainostoimistoja verkostoon. <a href=\"mailto:{{ site.contact.email }}\" rel=\"nofollow\" title=\"Lähetä sähköpostia\">Ota rohkeasti yhteyttä</a> jos kaipaat verkkosivustoa tai yhteistyö kiinnostaa.</p>"
+  content: "<p>Olen rakentanut verkkosivustoja ja -kauppoja yrityksille ja yhteisöille vuodesta 2014, jonka aikana olen tehnyt etätöitä mainostoimistoille, konsultoinut yrityksiä, luonut satoja verkkosivustoja sekä kehittänyt kumppanien kanssa verkkokaupan, varauskalenterin ja urheilualustan ProcessWirelle. Verkostosta löytyy tarvittaessa tekijöitä myös markkinointiin, yrityksen tai tuotteiden brändäykseen, grafiikkaan sekä sisällön tuottamiseen.</p><p>Käytettävissä etätyöhön sekä Rauman keskustassa toimistolla tai asiakkaan tiloissa.<br>Etsin mainostoimistoja verkostoon. <a href=\"mailto:{{ site.email }}\" rel=\"nofollow\" title=\"Lähetä sähköpostia\">Ota rohkeasti yhteyttä</a> jos kaipaat verkkosivustoa tai yhteistyö kiinnostaa.</p>"
 
 featured:
   - title: Verkkotohtorointi
