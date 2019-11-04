@@ -460,16 +460,6 @@ button.btn-menu {
     line-height: 1.6rem
 }
 
-#caption {
-    z-index: 120
-}
-
-#hero p {
-    font-size: 1.8rem;
-    line-height: 2.2rem;
-    color: rgba(255, 255, 255, .9)
-}
-
 #socialmedia .icon {
     font-size: 1.8rem;
     padding: 10px;
@@ -480,8 +470,19 @@ button.btn-menu {
     color: #fff
 }
 
-aside #socialmedia .icon {
-    padding-top: 6px
+#caption {
+    z-index: 120
+}
+
+#hero {
+    overflow: hidden;
+    height: 500px
+}
+
+#hero p {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: rgba(255, 255, 255, .9)
 }
 
 #hero img {
@@ -493,11 +494,6 @@ aside #socialmedia .icon {
 #hero .abs {
     top: 0;
     left: 0
-}
-
-#hero {
-    overflow: hidden;
-    height: 500px
 }
 
 #hero .cell {
@@ -712,62 +708,6 @@ main .col-9 ul {
     .home main {
         padding-top: 0
     }
-    #hero p {
-        font-size: 1.6rem;
-        line-height: 1.9rem
-    }
-    #links,
-    #menu,
-    #menu-toggler {
-        position: absolute
-    }
-    #menu-toggler {
-        width: 45px;
-        height: 48px;
-        background: 0 0;
-        border: 0;
-        right: 15px;
-        font-size: 2.4rem;
-        z-index: 777
-    }
-    #logo {
-        margin-left: 15px
-    }
-    #menu li,
-    #menu-toggler.hidden,
-    #menu.show {
-        display: block
-    }
-    #menu,
-    #navigation {
-        width: 100%
-    }
-    header .container {
-        padding: 0
-    }
-    #navigation {
-        top: 0;
-        left: 0
-    }
-    #menu a {
-        padding: 10px 15px;
-        border-top: 1px solid rgba(255, 255, 255, .2)
-    }
-    #menu {
-        background: #100e17;
-        top: 56px;
-        left: 0;
-        width: 100%;
-        z-index: 400
-    }
-    #links {
-        top: 0;
-        right: 75px
-    }
-    #breadcrumbs,
-    #menu {
-        display: none
-    }
     footer h4.acme {
         font-size: 1.6rem
     }
@@ -786,9 +726,14 @@ main .col-9 ul {
 }
 
 @media screen and (max-width:549px) {
-    .home #hero {
-        height: 92vh
+    #hero p {
+        font-size: 20px;
+        line-height: 26px
     }
+	#hero,
+	#hero img {
+		height: 82vh;
+	}
     #line .socialmedia {
         max-width: 240px
 	}
