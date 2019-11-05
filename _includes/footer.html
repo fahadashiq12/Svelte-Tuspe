@@ -8,9 +8,10 @@
 	<picture>
 		<source srcset="/assets/images/whatsapp.webp" type="image/webp">
 		<source srcset="/assets/images/whatsapp.png" type="image/png">
-		<img data-src="/assets/images/whatsapp.jpg" alt="WhatsApp" loading="lazy">
+		<img class="lazy" data-src="/assets/images/whatsapp.jpg" alt="WhatsApp" loading="lazy">
 	</picture>
 </a>
 <script src="/assets/lazy.js"></script>
+<script>var lazyLoadInstance = new LazyLoad({ elements_selector: ".lazy" });</script>
 {% if page.ga %}<script async src="https://www.googletagmanager.com/gtag/js?id={{ page.ga }}"></script><script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '{{ page.ga }}');</script>{% endif %}
 </body></html>
