@@ -39,7 +39,6 @@ more:
   fi: "Lue lisää"
 
 include:
-  - _redirects
   - _headers
 
 exclude:

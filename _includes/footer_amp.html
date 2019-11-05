@@ -5,12 +5,9 @@
 {% endfor %}
 </ul></div></footer>
 <a id="whatsapp" class="block" href="https://api.whatsapp.com/send?phone=358407746121" title="{{ site.data.home_fi.contact_whatsapp }}" target="_blank" rel="nofollow noopener">
-	<picture>
-		<source srcset="/assets/images/whatsapp.webp" type="image/webp">
-		<source srcset="/assets/images/whatsapp.jpg" type="image/jpeg"> 
-		<img src="/assets/images/whatsapp.jpg" alt="WhatsApp">
-	</picture>
+	<amp-img src="/assets/images/whatsapp.webp" alt="{{ site.data.home_fi.slogan }}" width="48" height="48" layout="responsive">
+		<amp-img fallback src="/assets/images/whatsapp.jpg" alt="WhatsApp" width="48" height="48" layout="responsive"></amp-img>
+	</amp-img>
 </a>
-<script src="/assets/lozad.js"></script>
-{% if page.ga %}<script async src="https://www.googletagmanager.com/gtag/js?id={{ page.ga }}"></script><script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '{{ page.ga }}');</script>{% endif %}
+<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script><amp-analytics type="gtag" data-credentials="include"><script type="application/json">{ "vars" : { "gtag_id": "{{ page.ga }}", "config" : { "{{ page.ga }}": { "groups": "default" }}}}</script></amp-analytics>
 </body></html>

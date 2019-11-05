@@ -19,7 +19,7 @@ lang: fi
 			<picture>
 				<source srcset="/assets/images/work-{{ item.img }}.webp" type="image/webp">
 				<source srcset="/assets/images/work-{{ item.img }}.webp" type="image/jpeg">
-				<img class="lazyload" src="/assets/images/work-{{ item.img }}.jpg" alt="{{ site.data.home_fi.slogan }}">
+				<img class="lozad" src="/assets/images/work-{{ item.img }}.jpg" alt="{{ site.data.home_fi.slogan }}" loading="lazy">
 			</picture>
             <div class="p-4">
                 <h3 class="subtitle">{{ item.title }}</h3>
@@ -40,7 +40,7 @@ lang: fi
 				<picture>
 					<source srcset="/assets/images/ref-{{ item.name | downcase }}.webp" type="image/webp">
 					<source srcset="/assets/images/ref-{{ item.name | downcase }}.webp" type="image/jpeg">
-					<img class="lazyload" src="/assets/images/ref-{{ item.name | downcase }}.jpg" alt="{{ item.name }}">
+					<img class="lozad" src="/assets/images/ref-{{ item.name | downcase }}.jpg" alt="{{ item.name }}" loading="lazy">
 				</picture>
 				<div class="cell abs p-5">
 					<h3 class="mb-2">{{ item.name }}</h3>
