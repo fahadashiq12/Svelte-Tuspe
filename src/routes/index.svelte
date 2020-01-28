@@ -29,13 +29,13 @@
             <li class="inl"><a id="mobile" class="block circle text-white" href="tel:+358407746121" rel="nofollow noopener noreferrer" title=""><div class="cell icon icon-mobile"></div><span class="hidden"></span></a></li>
             <li class="inl"><a id="mail" class="block circle text-white" href="mailto:info@tuspe.com" rel="nofollow noopener noreferrer" title=""><div class="cell icon icon-mail"></div><span class="hidden"></span></a></li>
             
-            <li class="inl"><a class="block circle text-white" href="https://www.linkedin.com/in/anttilatimo/" title="Linkedin" target="_blank" rel="me noopener"><div class="cell icon icon-linkedin"></div><span class="hidden">Linkedin</span></a></li>
+            <li class="inl"><a class="block circle text-white" href="https://www.linkedin.com/in/anttilatimo/" title="Linkedin: Timo Anttila" target="_blank" rel="me noopener"><div class="cell icon icon-linkedin"></div><span class="hidden">Linkedin</span></a></li>
             
-            <li class="inl"><a class="block circle text-white" href="https://www.facebook.com/tuspedesign" title="Facebook" target="_blank" rel="me noopener"><div class="cell icon icon-facebook"></div><span class="hidden">Facebook</span></a></li>
+            <li class="inl"><a class="block circle text-white" href="https://www.facebook.com/tuspedesign" title="Facebook: Tuspe Design" target="_blank" rel="me noopener"><div class="cell icon icon-facebook"></div><span class="hidden">Facebook</span></a></li>
             
-            <li class="inl"><a class="block circle text-white" href="https://twitter.com/tuspedesign" title="Twitter" target="_blank" rel="me noopener"><div class="cell icon icon-twitter"></div><span class="hidden">Twitter</span></a></li>
+            <li class="inl"><a class="block circle text-white" href="https://twitter.com/tuspedesign" title="Twitter: Tuspe Design" target="_blank" rel="me noopener"><div class="cell icon icon-twitter"></div><span class="hidden">Twitter</span></a></li>
             
-            <li class="inl"><a class="block circle text-white" href="https://github.com/tewdin" title="Github" target="_blank" rel="me noopener"><div class="cell icon icon-github"></div><span class="hidden">Github</span></a></li>
+            <li class="inl"><a class="block circle text-white" href="https://github.com/timoanttila" title="Github: Timo Anttila" target="_blank" rel="me noopener"><div class="cell icon icon-github"></div><span class="hidden">Github</span></a></li>
             
         </ul>
     </div>

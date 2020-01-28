@@ -1,6 +1,6 @@
 {
   "name": "tuspedesign",
-  "description": "Official company website. Powered by Svelte / Sapper.",
+  "description": "Official website of Tuspe Design.",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
