@@ -149,8 +149,8 @@
 
 <section id="contact" class="contact container bor tc pt-4 pb-4">
 	<div class="row text-white">
-		<div class="col-3 r1 mb1"><div class="cell"><h4 class="acme">Uusi projekti?</h4></div></div>
-		<div class="col-6 r1 mb1"><div class="cell"><div class="content">Kiinnostaako yhteistyö? Ota yhteyttä ja keskustellaan miten voin auttaa.</div></div></div>
+		<div class="col-3 r1 mb1"><div class="cell"><h4 class="acme">New project?</h4></div></div>
+		<div class="col-6 r1 mb1"><div class="cell"><div class="content">Interested? Contact me and let's discuss how I can help.</div></div></div>
 		<div class="col-3 r1"><div class="cell"><a class="inl text-white" href="mailto:info@tuspe.com" rel="nofollow">info@tuspe.com</a><a class="inl text-white" href="tel:+358407746121" rel="nofollow">040 774 6121</a></div></div>
 	</div>
 </section>
