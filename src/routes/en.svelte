@@ -12,6 +12,8 @@
 	<meta name="twitter:description" content={summary}>
 	<meta name="twitter:title" content={title}>
 	<meta name="twitter:image:alt" content={title}>
+	<link rel="canonical" href="https://tuspe.com/en/">
+	<link rel="amphtml" href="https://amp.tuspe.com/en">
 </svelte:head>
 
 <a id="lang" class="acme text-white circle" href="/" hreflang="fi" rel="home">FI</a>

@@ -11,9 +11,11 @@
 	<meta name="twitter:description" content={sum}>
 	<meta name="twitter:title" content={title}>
 	<meta name="twitter:image:alt" content={title}>
+	<link rel="canonical" href="https://tuspe.com/">
+	<link rel="amphtml" href="https://amp.tuspe.com/">
 </svelte:head>
 
-<a id="lang" class="acme text-white circle" href="/en" hreflang="en">EN</a>
+<a id="lang" class="acme text-white circle" href="/en/" hreflang="en">EN</a>
 
 <div id="hero" class="rel acme obj">
 	<div id="caption" class="cell tc abs">
