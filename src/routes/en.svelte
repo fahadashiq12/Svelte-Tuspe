@@ -1,5 +1,5 @@
 <script>
-	let title = "Tuspe Design | Website for company"
+	let title = "Tuspe Design | Responsive and fast website for your business"
 	let summary = "Tuspe is a Rauma based company specialized in designing and implementing websites and e-commerce stores as well as expert Google search engine optimization."
 </script>
 
@@ -13,6 +13,8 @@
 	<meta name="twitter:title" content={title}>
 	<meta name="twitter:image:alt" content={title}>
 </svelte:head>
+
+<a id="lang" class="acme text-white" href="/" hreflang="fi" rel="home">FI</a>
 
 <div id="hero" class="rel acme obj">
     <div id="caption" class="cell tc abs">
@@ -53,7 +55,7 @@
 <p><a href="mailto:info@tuspe.com" rel="nofollow" title="Send emails"> Feel free to contact me</a> if you are looking for a website or are interested in working together.</p> <div id = "business_contact" class = "tc mt-4 pt-3"> <a class="text-white" href="tel:+358407746121" rel="nofollow"> 040 774 6121 </a> | <a class="text-white" href="mailto:info@tuspe.com" rel="nofollow"> info@tuspe.com </a> <br> 2745877-5 </div>
 </section>
 
-<div class="bg-white"><div class="container pb-5">
+<div class="bg-white"><div class="container">
 
 <section id="projects" class="row text-white rel mtop">
     

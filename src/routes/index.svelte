@@ -1,25 +1,31 @@
+<script>
+	let title = "Tuspe Design | Verkkosivustot ja verkkokaupat yrityksille"
+	let sum = "Tuspe on raumalainen verkkosivustojen ja verkkokauppojen suunnitteluun ja toteutukseen sekä asiantuntevaan Google-hakukoneoptimointiin erikoistunut yritys."
+</script>
 <svelte:head>
 	<title>Tuspe Design | Responsiivinen ja nopea verkkosivu yritykselle</title>
-	<meta name="description" content="Tuspe on raumalainen verkkosivustojen ja verkkokauppojen suunnitteluun ja toteutukseen sekä asiantuntevaan Google-hakukoneoptimointiin erikoistunut yritys.">
-	<meta property="og:title" content="Tuspe Design | Verkkosivustot ja verkkokaupat yrityksille">
-	<meta property="og:description" content="Tuspe on raumalainen verkkosivustojen ja verkkokauppojen suunnitteluun ja toteutukseen sekä asiantuntevaan Google-hakukoneoptimointiin erikoistunut yritys.">
-	<meta property="og:image:alt" content="Tuspe Design | Verkkosivustot ja verkkokaupat yrityksille">
-	<meta name="twitter:description" content="Tuspe on raumalainen verkkosivustojen ja verkkokauppojen suunnitteluun ja toteutukseen sekä asiantuntevaan Google-hakukoneoptimointiin erikoistunut yritys.">
-	<meta name="twitter:title" content="Tuspe Design | Verkkosivustot ja verkkokaupat yrityksille">
-	<meta name="twitter:image:alt" content="Tuspe Design | Verkkosivustot ja verkkokaupat yrityksille">
+	<meta name="description" content={sum}>
+	<meta property="og:title" content={title}>
+	<meta property="og:description" content={sum}>
+	<meta property="og:image:alt" content={title}>
+	<meta name="twitter:description" content={sum}>
+	<meta name="twitter:title" content={title}>
+	<meta name="twitter:image:alt" content={title}>
 </svelte:head>
+
+<a id="lang" class="acme text-white" href="/en" hreflang="en">EN</a>
 
 <div id="hero" class="rel acme obj">
     <div id="caption" class="cell tc abs">
         <div class="text-white mini">
             <h1 class="title mb-4">Tuspe Design</h1>
-            <p>Tuspe on raumalainen verkkokauppojen ja -sivustojen suunnitteluun ja toteutukseen sekä asiantuntevaan Google-hakukoneoptimointiin erikoistunut yritys.</p>
+            <p>{sum}</p>
         </div>
     </div>
 	<picture>
 		<source srcset="/assets/images/hero.webp" type="image/webp">
 		<source srcset="/assets/images/hero.jpg" type="image/jpeg">
-		<img src="/assets/images/hero.jpg" alt="Tuspe on raumalainen verkkosivustojen ja verkkokauppojen suunnitteluun ja toteutukseen sekä asiantuntevaan Google-hakukoneoptimointiin erikoistunut yritys.">
+		<img src="/assets/images/hero.jpg" alt={sum}>
 	</picture>
 </div>
 
@@ -45,7 +51,7 @@
     <p>Olen rakentanut verkkosivustoja ja -kauppoja yrityksille ja yhteisöille vuodesta 2014, jonka aikana olen tehnyt etätöitä mainostoimistoille, konsultoinut yrityksiä, luonut satoja verkkosivustoja sekä kehittänyt kumppanien kanssa verkkokaupan, varauskalenterin ja urheilualustan ProcessWirelle. Verkostosta löytyy tarvittaessa tekijöitä myös markkinointiin, yrityksen tai tuotteiden brändäykseen, grafiikkaan sekä sisällön tuottamiseen.</p><p>Käytettävissä etätyöhön sekä Rauman keskustassa toimistolla tai asiakkaan tiloissa.<br>Etsin mainostoimistoja verkostoon. <a href="mailto:info@tuspe.com" rel="nofollow" title="Lähetä sähköpostia">Ota rohkeasti yhteyttä</a> jos kaipaat verkkosivustoa tai yhteistyö kiinnostaa.</p><div id="business_contact"class="tc mt-4 pt-3"><a class="text-white" href="tel:+358407746121" rel="nofollow">040 774 6121</a> | <a class="text-white" href="mailto:info@tuspe.com" rel="nofollow">info@tuspe.com</a><br>2745877-5</div>
 </section>
 
-<div class="bg-white"><div class="container pb-5">
+<div class="bg-white"><div class="container">
 
 <section id="projects" class="row text-white rel mtop">
     

@@ -7,7 +7,6 @@
 }
 
 * {
-	vertical-align: top;
 	margin: 0;
 	padding: 0
 }
@@ -228,10 +227,14 @@ main .container {
 	margin-right: auto
 }
 
-.cell {
+.cell,
+#lang {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+.cell {
 	width: 100%;
 	height: 100%
 }
@@ -242,6 +245,18 @@ main .container {
 
 .cell.tc {
 	align-items: center
+}
+
+#lang {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	border: 1px solid rgba(255,255,255,.6);
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	align-items: center;
+	font-size: 1.3rem
 }
 
 .row {
@@ -528,7 +543,7 @@ main p:last-child {
 }
 
 #contact {
-	top: 100px
+	top: 46px
 }
 
 #breadcrumbs {
@@ -657,7 +672,7 @@ main .col-9 ul {
 		margin-bottom: 15px
 	}
 	#contact {
-		top: -80px
+		top: -65px
 	}
 }
 
