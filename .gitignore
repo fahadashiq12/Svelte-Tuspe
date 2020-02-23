@@ -1,6 +1,3 @@
-.DS_Store
-/node_modules/
-/src/node_modules/@sapper/
-yarn-error.log
-/cypress/screenshots/
-/__sapper__/
+docs/404.html
+docs/feed.xml
+Sapper/static/
