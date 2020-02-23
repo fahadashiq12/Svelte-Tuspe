@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<link rel="preload" href="https://cdn.ampproject.org/v0.js" as="script">
 	<base href="/">
+	<link rel="preload" href="https://cdn.ampproject.org/v0.js" as="script">
 	<title>{% if page.slogan %}{{ site[page.language].title }} | {{ page.slogan }}{% else %}{{ site[page.language].title }} | {{ site.title }}{% endif %}</title>
 	<meta name="geo.placename" content="{{ site.contact.area }}">
 	<meta name="geo.region" content="Finland">
@@ -82,9 +82,9 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffffff">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#fff">
 	<meta name="msapplication-TileColor" content="#00aba9">
-	<meta name="theme-color" content="#ffffff">
+	<meta name="theme-color" content="#fff">
 </head>
 <body>
 <main>
@@ -98,7 +98,7 @@
 			<p>{{ site[page.language].summary }}</p>
 		</div>
 	</div>
-	<amp-img alt="{{ site[page.language].summary }}" width="1500" height="500" layout="fill" src="/assets/images/hero.webp"><div fallback><amp-img alt="{{ site[page.language].summary }}" width="1500" height="500" layout="fill" src="/assets/images/hero.jpg"></amp-img></div></amp-img>
+	<amp-img alt="{{ site[page.language].summary }}" width="1500" height="500" layout="responsive" src="/assets/images/hero.webp"><div fallback><amp-img alt="{{ site[page.language].summary }}" width="1500" height="500" layout="responsive" src="/assets/images/hero.jpg"></amp-img></div></amp-img>
 </div>
 
 <div id="line" class="contact">
@@ -152,7 +152,7 @@
 {% endfor %}
 </ul></div></footer>
 <a id="whatsapp" class="block" href="https://api.whatsapp.com/send?phone=358407746121" title="WhatsApp - lähetä viesti ja kerro miten voin auttaa" target="_blank" rel="nofollow noopener">
-	<amp-img alt="WhatsApp" width="48" height="48" src="/assets/images/whatsapp.webp"><div fallback><amp-img alt="{{ site[page.language].summary }}" width="48" height="48" src="/assets/images/whatsapp.jpg"></amp-img></div></amp-img>
+	<amp-img alt="WhatsApp" width="48" height="48" src="/assets/images/whatsapp.webp"><div fallback><amp-img alt="WhatsApp" width="48" height="48" src="/assets/images/whatsapp.jpg"></amp-img></div></amp-img>
 </a>
 <amp-analytics type="gtag" data-credentials="include"><script type="application/json">{ "vars" : { "gtag_id": "UA-108865856-4", "config" : { "UA-108865856-4": { "groups": "default" } } } }</script></amp-analytics>
 </body></html>

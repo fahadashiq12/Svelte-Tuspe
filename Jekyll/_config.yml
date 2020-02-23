@@ -1,6 +1,6 @@
 
 title: Tuspe Design
-base: https://amp.tuspe.com
+base: https://tuspe.com
 
 # Build settings
 markdown: kramdown
@@ -41,7 +41,7 @@ defaults:
     values:
       lang: "en"
 
-img: "https://amp.tuspe.com/assets/images/hero.jpg"
+img: "https://tuspe.com/assets/images/hero.jpg"
 
 fi:
   title: "Tuspe Design | Verkkosivut yrityksille"
