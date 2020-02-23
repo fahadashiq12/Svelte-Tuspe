@@ -11,8 +11,13 @@
 	padding: 0
 }
 
+*,
+:after,
+:before {
+	box-sizing: border-box
+}
+
 #hero,
-.bg-primary,
 html {
 	background: #100e17
 }
@@ -53,10 +58,6 @@ h3 {
 	line-height: 1.8rem
 }
 
-#clients h3 {
-	font-size: 2.2rem
-}
-
 h4 {
 	font-size: 1.8rem
 }
@@ -71,25 +72,10 @@ body {
 	color: #fff
 }
 
-.btn {
-	padding: 6px 15px;
-	border-radius: 4px;
-	margin-top: 15px;
-	display: inline-block
-}
-
-*,
-:after,
-:before {
-	box-sizing: border-box
-}
-
 img {
+	width: 100%;
+	max-width: 100%;
 	height: auto
-}
-
-img {
-	max-width: 100%
 }
 
 .title {
@@ -135,12 +121,6 @@ img {
 	background-color: #fff
 }
 
-.st {
-	font-size: 1.6rem;
-	border-top-left-radius: 6px;
-	border-top-right-radius: 6px
-}
-
 h3 {
 	font-size: 1.3rem
 }
@@ -158,47 +138,17 @@ h3 {
 	margin-bottom: 8px
 }
 
-#clients .col-4 .cell,
-.col-4:hover .more,
-footer a:hover {
-	background: linear-gradient(135deg, #100e17 0, #3c5ca2 100%)
-}
-
-aside h3 {
-	background: linear-gradient(#201c29, #100e17)
-}
-
-#github .col-4:hover h3,
-#menu a:hover,
-#posts a:hover h4,
-.mini.text-white p a {
-	color: #2bb4c5
-}
-
-#posts li:hover {
-	border-color: #2bb4c5
-}
-
-.w-100 {
-	width: 100%
-}
-
-.w-90 {
-	width: 90%
-}
-
 .h-100 {
 	height: 100%
 }
 
-.inl,
-.nav-item {
+.inl {
 	display: inline-block;
 	vertical-align: middle
 }
 
-#menu a,
-.block {
+.block,
+img {
 	display: block
 }
 
@@ -222,6 +172,10 @@ main .container {
 	width: 90%
 }
 
+main p { margin-bottom: 15px }
+
+main p:last-child { margin-bottom: 0 }
+
 .mx-auto {
 	margin-left: auto;
 	margin-right: auto
@@ -239,10 +193,6 @@ main .container {
 	height: 100%
 }
 
-.cell.tl {
-	align-items: flex-start
-}
-
 .cell.tc {
 	align-items: center
 }
@@ -250,18 +200,13 @@ main .container {
 #lang {
 	width: 48px;
 	height: 48px;
-	border-radius: 50%;
-	border: 1px solid rgba(255,255,255,.6);
 	position: absolute;
-	top: 40px;
-	right: 40px;
 	align-items: center;
+	z-index: 500;
 	font-size: 1.3rem
 }
 
 .row {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
@@ -271,27 +216,13 @@ main .container {
 
 .col-3,
 .col-4,
-.col-6,
-.col-8,
-.col-9 {
+.col-6 {
 	position: relative;
 	width: 100%;
 	min-height: 1px;
 	padding-right: 10px;
 	padding-left: 10px;
 	-webkit-box-flex: 0
-}
-
-.col-9 {
-	-ms-flex: 0 0 75%;
-	flex: 0 0 75%;
-	max-width: 75%
-}
-
-.col-8 {
-	-ms-flex: 0 0 66.6666%;
-	flex: 0 0 66.6666%;
-	max-width: 66.6666%
 }
 
 .col-6 {
@@ -312,49 +243,12 @@ main .container {
 	max-width: 25%
 }
 
-.mb-2 {
-	margin-bottom: .5rem
-}
-
-.ml-2 {
-	margin-left: .5rem
-}
-
-.mt-3 {
-	margin-top: 1rem
-}
-
-.mb-3 {
-	margin-bottom: 1rem
-}
-
 .mt-4 {
 	margin-top: 1.5rem
 }
 
 .mb-4 {
 	margin-bottom: 1.5rem
-}
-
-.mt-5 {
-	margin-top: 3rem
-}
-
-.mb-5 {
-	margin-bottom: 3rem
-}
-
-.ml-0 {
-	margin-left: 0
-}
-
-.py-2 {
-	padding-top: .5rem;
-	padding-bottom: .5rem
-}
-
-.p-2 {
-	padding: .5rem
 }
 
 .pt-3 {
@@ -365,10 +259,6 @@ main .container {
 	padding-top: 1.5rem
 }
 
-.pb-4 {
-	padding-bottom: 1.5rem
-}
-
 .p-4 {
 	padding: 1.5rem
 }
@@ -377,22 +267,7 @@ main .container {
 	padding-bottom: 1.5rem
 }
 
-.pt-5 {
-	padding-top: 3rem
-}
-
-.pb-5 {
-	padding-bottom: 3rem
-}
-
-.p-5 {
-	padding: 3rem
-}
-
-.py-54 {
-	padding-top: 3rem;
-	padding-bottom: 1.5rem
-}
+.pt-5 { padding-top: 3rem }
 
 .hidden {
 	display: none
@@ -400,75 +275,6 @@ main .container {
 
 .tc {
 	text-align: center
-}
-
-.tr {
-	text-align: right
-}
-
-header {
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 666
-}
-
-#navigation {
-	top: 0;
-	right: 0
-}
-
-#navigation a,
-#search-toggler {
-	font-size: 1.2rem
-}
-
-#links .circle {
-	width: 48px;
-	height: 48px
-}
-
-#menu a.active {
-	text-decoration: line-through
-}
-
-#navigation div.inl {
-	padding: 10px 0
-}
-
-.btn-menu {
-	margin-top: 1px
-}
-
-#search-toggler,
-.btn-menu {
-	border: 2px solid #aaa
-}
-
-button.btn-menu {
-	background: 0 0;
-	font-size: 1.1rem;
-	padding: 0 15px;
-	height: 37px
-}
-
-.up {
-	text-transform: uppercase
-}
-
-#site {
-	font-size: 1.4rem;
-	line-height: 1.6rem
-}
-
-#socialmedia .icon {
-	font-size: 1.8rem;
-	padding: 10px;
-	color: rgba(255, 255, 255, .7)
-}
-
-#socialmedia .icon:hover {
-	color: #fff
 }
 
 #caption {
@@ -500,18 +306,6 @@ button.btn-menu {
 #hero .cell {
 	position: absolute;
 	background: radial-gradient(ellipse farthest-side, rgba(15, 14, 22, .3), rgba(16, 14, 23, 1))
-}
-
-main p {
-	margin-bottom: 15px
-}
-
-main p:last-child {
-	margin-bottom: 0
-}
-
-.bg-light {
-	background-color: #dee2e7
 }
 
 .bg-white {
@@ -546,48 +340,20 @@ main p:last-child {
 	top: 46px
 }
 
-#breadcrumbs {
-	top: 5px;
-	left: 10px;
-	font-size: 12px
-}
-
-main .col-9 ul {
-	margin-left: 18px
-}
-
-#slogan {
-	line-height: 1rem
-}
-
-#search-toggler {
-	background: 0 0;
-	padding: 6px 10px
-}
-
 #projects {
 	top: -190px;
 	margin-bottom: -190px
 }
 
-#github .mbot {
-	padding-bottom: 150px
-}
-
-#github .mtop {
-	top: -100px;
-	margin-bottom: auto
-}
-
 .circle {
 	border: 1px solid rgba(255, 255, 255, .4);
-	border-radius: 50%
+	border-radius: 50%;
+	width: 48px;
+	height: 48px;
 }
 
 .socialmedia a {
 	font-size: 1.4rem;
-	width: 48px;
-	height: 48px
 }
 
 #line .socialmedia {
@@ -597,43 +363,13 @@ main .col-9 ul {
 .circle:hover {
 	border-color: #f2f2f2
 }
-
-#breadcrumbs,
-#breadcrumbs a {
-	color: #888
-}
-
-#clients .col-4 .cell {
-	visibility: hidden
-}
-
-#clients .col-4:hover .cell {
-	visibility: visible;
-	top: 0;
-	left: 0;
-	color: #fff
-}
-
 @media screen and (min-width:750px) {
-	.more {
-		position: absolute;
-		bottom: 0;
-		left: 0
-	}
-	.pb {
-		padding-bottom: 30px
-	}
-	.nav-item {
-		padding: 5px 0
-	}
-	#menu a {
-		padding: 4px 15px
-	}
-	#menu ul {
-		margin-top: 2px
-	}
 	#hello {
 		padding: 80px 0 225px
+	}
+	#lang {
+		top: 40px;
+		right: 40px;
 	}
 }
 
@@ -648,12 +384,6 @@ main .col-9 ul {
 	}
 }
 
-@media screen and (max-width:1200px) {
-	#navigation {
-		right: 15px
-	}
-}
-
 @media screen and (max-width:1000px) {
 	.r1 {
 		-ms-flex: 0 0 100%;
@@ -664,9 +394,6 @@ main .col-9 ul {
 		-ms-flex: 0 0 50%;
 		flex: 0 0 50%;
 		max-width: 50%
-	}
-	#socialmedia {
-		padding: 10px 0
 	}
 	.mb1 {
 		margin-bottom: 15px
@@ -681,11 +408,6 @@ main .col-9 ul {
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
 		max-width: 100%
-	}
-	.r72 {
-		-ms-flex: 0 0 50%;
-		flex: 0 0 50%;
-		max-width: 50%
 	}
 	.col-4.r12.r7 {
 		max-width: 450px;
@@ -702,12 +424,6 @@ main .col-9 ul {
 	#hero .cell {
 		background: radial-gradient(ellipse farthest-side, rgba(15, 14, 22, .2), rgba(16, 14, 23, .6))
 	}
-	.home main {
-		padding-top: 0
-	}
-	footer h4.acme {
-		font-size: 1.6rem
-	}
 	#hello {
 		padding: 45px 0 200px
 	}
@@ -719,6 +435,10 @@ main .col-9 ul {
 		font-size: 2.2rem;
 		line-height: 2.2rem;
 		margin: 0 auto 25px
+	}
+	#lang {
+		top: 20px;
+		right: 20px
 	}
 }
 
@@ -760,24 +480,12 @@ main .col-9 ul {
 	content: '\e800'
 }
 
-.icon-search:before {
-	content: '\e801'
-}
-
-.icon-cancel:before {
-	content: '\e803'
-}
-
 .icon-twitter:before {
 	content: '\f099'
 }
 
 .icon-facebook:before {
 	content: '\f09a'
-}
-
-.icon-menu:before {
-	content: '\f0c9'
 }
 
 .icon-linkedin:before {
@@ -805,8 +513,4 @@ main .col-9 ul {
 #business_contact {
 	border-top: 1px solid rgba(255, 255, 255, .15);
 	font-size: 14px
-}
-
-footer {
-	padding-top: 3rem
 }
