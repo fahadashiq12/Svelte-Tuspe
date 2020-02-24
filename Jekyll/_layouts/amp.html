@@ -15,7 +15,7 @@
 	<meta property="og:site_name" content="{{ site.title }}">
 	<meta property="og:title" content="{{ site[page.language].title }}">
 	<meta property="og:description" content="{{ site[page.language].summary }}">
-	<meta property="og:url" content="{{ site.base }}{{ page.url }}">
+	<meta property="og:url" content="{{ site.base }}{{ page.permalink }}">
 	<meta property="og:image" content="{{ site.img }}">
 	<meta property="og:image:alt" content="{{ site[page.language].title }}">
 	<meta property="og:type" content="website">
@@ -24,7 +24,7 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:description" content="{{ site[page.language].summary }}">
 	<meta name="twitter:title" content="{{ site[page.language].title }}">
-	<meta name="twitter:url" content="{{ site.base }}{{ page.url }}">
+	<meta name="twitter:url" content="{{ site.base }}{{ page.permalink }}">
 	<meta name="twitter:image" content="{{ site.img }}">
 	<meta name="twitter:image:alt" content="{{ site[page.language].title }}">
 	<meta name="twitter:site" content="@tuspedesign">
@@ -72,7 +72,7 @@
     <script async src="https://cdn.ampproject.org/v0.js"></script>
 	<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 	<link rel="icon" type="image/png" href="https://tuspe.com/favicon.png">
-	<link rel="canonical" href="https://tuspe.com{{ page.url }}">
+	<link rel="canonical" href="https://tuspe.com{{ page.can }}">
 	<link rel="alternate" hreflang="fi" href="https://tuspe.com/amp/">
 	<link rel="alternate" hreflang="en" href="https://tuspe.com/amp/en">
 	<link rel="alternate" hreflang="x-default" href="https://tuspe.com/amp/en">
@@ -98,7 +98,7 @@
 			<p>{{ site[page.language].summary }}</p>
 		</div>
 	</div>
-	<amp-img alt="{{ site[page.language].summary }}" width="1500" height="500" layout="responsive" src="/assets/images/hero.webp"><div fallback><amp-img alt="{{ site[page.language].summary }}" width="1500" height="500" layout="responsive" src="/assets/images/hero.jpg"></amp-img></div></amp-img>
+	<amp-img alt="{{ site[page.language].summary }}" layout="fill" src="/assets/images/hero.webp"><div fallback><amp-img alt="{{ site[page.language].summary }}" layout="fill" src="/assets/images/hero.jpg"></amp-img></div></amp-img>
 </div>
 
 <div id="line" class="contact">
