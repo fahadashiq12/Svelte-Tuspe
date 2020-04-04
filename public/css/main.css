@@ -43,69 +43,27 @@ body,
 
 main a:hover { transition: all .2s ease }
 
-#logo,
-#menu-toggler { top: 20px }
-
 #logo {
 	position: absolute;
+	top: 20px;
 	left: 40px;
 	width: 100px;
 	z-index: 444
 }
 
-#menu-toggler {
-	position: fixed;
-	width: 56px;
-	height: 52px;
-	background: #7d1eff;
-	border: 0;
-	right: 40px;
-	z-index: 666;
-	padding-top: 4px;
-	border-radius: 4px;
-}
-
-#menu-toggler.open {
-	border-radius: 50%;
-	background-color: #fff
-}
-
 img,
 #logo,
-#menu a,
-#menu li,
 footer a { display: block }
 
 .hidden { display: none }
 
 img { width: 100% }
 
-#menu a,
 .btn,
 #about h3,
 h3.sub { text-transform: uppercase }
 
-#menu a,
 .tw { color: #fff }
-
-#menu {
-	width: 300px;
-	height: 100vh;
-	position: fixed;
-	top: 0;
-	right: 0;
-	z-index: 555;
-	background-color: #000
-}
-
-#menu .cell { align-items: center }
-
-#menu a {
-	padding: 10px;
-	border-bottom: 1px solid rgba(255,255,255,.2)
-}
-
-#menu li:last-child a { border-bottom: 0 }
 
 #hero { position: relative }
 
@@ -347,21 +305,26 @@ svg { fill: #fff }
 	.col-4,
 	#partners .col {
 		flex: 0 0 100%;
-		max-width: 100%
+		max-width: 100%;
+		padding: 0
 	}
 	#hero { height: 100vh }
-	#caption,
-	#menu .cell { max-height: 80vh }
-	#featured h3 { text-align: center }
+	#caption { max-height: 85vh }
+	#featured h3,
+	#partners h3 { text-align: center }
+	#partners { padding-top: 0 }
+	#partners .cell {
+		padding: 25px 5%
+	}
 }
 
 @media screen and (max-width: 620px){
 	.col-3 {
 		flex: 0 0 100%;
-		max-width: 100%
+		max-width: 100%;
+		padding: 0
 	}
 	#logo { left: 20px }
-	#menu-toggler { right: 20px }
 }
 
 @media screen and (max-width: 580px){
@@ -370,8 +333,8 @@ svg { fill: #fff }
 		line-height: 8vw;
 	}
 	#caption h1 span {
-		font-size: 8vw;
-		line-height: 9vw;
+		font-size: 8.5vw;
+		line-height: 9.5vw;
 	}
 	#caption h1 span { text-transform: uppercase }
 }
@@ -380,12 +343,17 @@ svg { fill: #fff }
 	#contact .col {
 		flex: 0 0 100%;
 		max-width: 100%;
+		padding: 0;
 		margin-bottom: 8px
 	}
 	#contact .col:last-child { margin-bottom: 0 }
 	#about h2 {
-		font-size: 7vw;
-		line-height: 8.5vw
+		font-size: 23px;
+		line-height: 28px
+	}
+	#about h2 span {
+		font-size: 26px;
+		line-height: 30px
 	}
 }
 

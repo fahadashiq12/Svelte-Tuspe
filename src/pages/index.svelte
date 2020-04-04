@@ -138,29 +138,29 @@
 </section>
 
 <section id="partners" class="bgw mx">
-	<div class="inner mx w9">
+	<div class="inner mx">
 		<div id="partner" class="row">
-			<div class="col mb">
+			<div class="col">
 				<picture>
 					<source srcset="/images/partners.webp" type="image/webp">
 					<source srcset="/images/partners.jpg" type="image/jpeg">
 					<img src="/images/partners.jpg" alt="">
 				</picture>
-			</div><div class="col mb"><div class="cell">
+			</div><div class="col"><div class="cell">
 				<h3 class="sub">Palveluja alihankintana</h3>
-				<p>Haluamme olla kumppaneita, emme kilpailijoita! Haemme aktiivisesti uusia kumppaneita asiakashankintaan ja erilaisten palveluiden toteuttamiseen.</p>
-				<p><a href="mailto:myynti@tuspe.com" title="Lähetä sähköpostia ja kehitetään palveluita yhdessä" rel="nofollow">Ota rohkeasti yhteyttä</a> ja kerro teidän ydinosaamisesta ja miten voisimme kehittää yhteystyötä. Hyödynnä palveluidemme reilut kumppanuusalennukset.</p>
+				<p>Kumppaneita, ei kilpailijoita! Haemme aktiivisesti uusia kumppaneita asiakashankintaan ja erilaisten palveluiden toteuttamiseen.</p>
+				<p><a href="mailto:myynti@tuspe.com" title="Lähetä sähköpostia ja kehitetään palveluita yhdessä" rel="nofollow">Ota rohkeasti yhteyttä</a> ja kerro teidän ydinosaamisesta. Mietitään miten voisimme kehittää molempien palveluita ja myyntiä. Hyödynnä myös palveluidemme reilut kumppanuusalennukset.</p>
 			</div></div>
 		</div>
 		<div id="internship" class="row rr">
-			<div class="col mb">
+			<div class="col">
 				<picture>
 					<source srcset="/images/internship.webp" type="image/webp">
 					<source srcset="/images/internship.jpg" type="image/jpeg">
 					<img src="/images/internship.jpg" alt="">
 				</picture>
-			</div><div class="col mb"><div class="cell">
-				<h3 class="sub">Koulusta työharjoitteluun?</h3><p>Haluamme olla aktiivisesti mukana nuorten oppimisessa ja koululaiset voivat kysyä harjoittelupaikkaa suoraan tai koulun kautta. Meillä pääsee koodaamaan eikä tarvitse olla kantamassa kahvia!</p>
+			</div><div class="col"><div class="cell">
+				<h3 class="sub">Koulusta työharjoitteluun?</h3><p>Haluamme olla aktiivisesti mukana nuorten oppimisessa ja uusien alan tähtien kehityksessä. Kysy harjoittelupaikkaa suoraan tai koulun kautta. Meillä pääsee koodaamaan ja ylläpitämään palveluita eikä tarvitse olla kantamassa kahvia!</p>
 			</div></div>
 		</div>
 	</div>
