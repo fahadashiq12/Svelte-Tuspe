@@ -1,3 +1,5 @@
 /node_modules/
+/public/build/bundle.css
+/public/build/bundle.css.map
 .DS_Store
 .history

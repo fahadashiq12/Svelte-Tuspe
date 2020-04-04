@@ -74,30 +74,21 @@
 	<div id="caption" class="cell">
 		<div class="content">
 			<h1 class="tw"><span>Valloita nettimarkkinat</span> laadukkailla ratkaisuilla ja vahvalla brändillä</h1>
+			<div id="links">
+				<a class="btn tw" use:scrollto={'#contact'} href="/#contact" title="Keskutellaan miten voimme parantaa teidän myyntiä">Ota yhteyttä</a>
+				<a class="btn tw" use:scrollto={'#partner'} href="/#partner" title="Etsitkö tekijää projekteille?">Kumppaniksi</a>
+			</div>
 		</div>
-	</div>
-	<div id="contactUs">
-		<a href="tel:+358407746121" title="Keskutellaan miten voimme parantaa teidän myyntiä" rel="noopener nofollow">
-			<div class="cell">
-				<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path d="M19 2c0-1.104-.896-2-2-2h-10c-1.104 0-2 .896-2 2v20c0 1.104.896 2 2 2h10c1.104 0 2-.896 2-2v-20zm-8.5 0h3c.276 0 .5.224.5.5s-.224.5-.5.5h-3c-.276 0-.5-.224-.5-.5s.224-.5.5-.5zm1.5 20c-.553 0-1-.448-1-1s.447-1 1-1c.552 0 .999.448.999 1s-.447 1-.999 1zm5-3h-10v-14.024h10v14.024z"/></svg>
-			</div>
-		</a>
-		<a href="mailto:myynti@tuspe.com" title="Lähetä rohkeasti viestiä" rel="noopener nofollow">
-			<div class="cell">
-				<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path d="M12.042 23.648c-7.813 0-12.042-4.876-12.042-11.171 0-6.727 4.762-12.125 13.276-12.125 6.214 0 10.724 4.038 10.724 9.601 0 8.712-10.33 11.012-9.812 6.042-.71 1.108-1.854 2.354-4.053 2.354-2.516 0-4.08-1.842-4.08-4.807 0-4.444 2.921-8.199 6.379-8.199 1.659 0 2.8.876 3.277 2.221l.464-1.632h2.338c-.244.832-2.321 8.527-2.321 8.527-.648 2.666 1.35 2.713 3.122 1.297 3.329-2.58 3.501-9.327-.998-12.141-4.821-2.891-15.795-1.102-15.795 8.693 0 5.611 3.95 9.381 9.829 9.381 3.436 0 5.542-.93 7.295-1.948l1.177 1.698c-1.711.966-4.461 2.209-8.78 2.209zm-2.344-14.305c-.715 1.34-1.177 3.076-1.177 4.424 0 3.61 3.522 3.633 5.252.239.712-1.394 1.171-3.171 1.171-4.529 0-2.917-3.495-3.434-5.246-.134z"/></svg>
-			</div>
-		</a>
 	</div>
 </section>
 
 <section id="services">
 	<div class="bgw pd">
-		<div id="about" class="tc">
+		<div id="about" class="tc mx">
 			<div class="cell">
 				<h3>Sijoitus tulevaisuuteen</h3>
 				<h2><span class="purple">Laadukkaat verkkosivut</span><br>ovat hyvää asiakaspalvelua</h2>
 				<p>Tiedätkö, millainen asiakaskokemus syntyy verkkosivustollasi ja kuinka nopeasti kävijä löytää etsimänsä? Löytyykö verkkosivu hakukoneiden ensimmäiseltä sivulta? Jos pohdit näitä kysymyksiä, olet tullut oikeaan paikkaan. Mietitään yhdessä miten voimme parantaa teidän näkyvyyttä ja nostetaan verkkosivuston haku- ja myyntitulokset paremmaksi.</p>
-				<p><a use:scrollto={'#contact'} class="btn tb" href="/#contact" title="Yhteystiedot">Ota yhteyttä</a></p>
 			</div>
 		</div>
 	</div>

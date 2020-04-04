@@ -32,10 +32,16 @@ body {
 	background-color: #100e17
 }
 
+h1,
+h2,
+h3 {
+	font-weight: 800;
+}
+
 body,
 .tb { color: #222 }
 
-main a:hover { transition: all .1s ease }
+main a:hover { transition: all .2s ease }
 
 #logo,
 #menu-toggler { top: 20px }
@@ -68,7 +74,6 @@ img,
 #logo,
 #menu a,
 #menu li,
-#contactUs a,
 footer a { display: block }
 
 .hidden { display: none }
@@ -93,8 +98,7 @@ h3.sub { text-transform: uppercase }
 	background-color: #000
 }
 
-#menu .cell,
-#contactUs .cell { align-items: center }
+#menu .cell { align-items: center }
 
 #menu a {
 	padding: 10px;
@@ -109,6 +113,10 @@ h3.sub { text-transform: uppercase }
 #partners img {
 	height: 100%;
 	object-fit: cover
+}
+
+#links {
+	margin-top: 40px
 }
 
 .cell {
@@ -127,19 +135,9 @@ h3.sub { text-transform: uppercase }
 		position: absolute;
 		top: 0
 	}
-	#contactUs {
-		position: absolute;
-		bottom: 20px;
-		right: 60px
-	}
-	#contactUs a {
-		display: inline-block;
-		vertical-align: center
-	}
 	#about {
-		margin: 0 auto;
 		max-width: 730px;
-		width: 90%;
+		width: 90%
 	}
 	#about h2,
 	h3.sub,
@@ -239,24 +237,19 @@ footer h4 { font-size: 1.2rem }
 
 footer { padding: 0 3% 1rem }
 
-#contactUs a,
 #socialmedia a {
 	border: 1px solid #999;
 	padding: 4px;
-	border-radius: 50%
-}
-footer li { display: inline-block }
-#contactUs a,
-#socialmedia a {
+	border-radius: 50%;
 	width: 48px;
 	height: 48px
 }
+footer li { display: inline-block }
 
-#contactUs a:hover,
+#hero .btn:hover,
 #socialmedia a:hover {
 	background-color: #7d1eff;
-	border-color: #000;
-	border-radius: 50%;
+	border-color: #000
 }
 
 #slogan h4 {
@@ -270,16 +263,25 @@ svg { fill: #fff }
 
 @media screen and (max-height: 767px){
 	#hero { height: 100vh }
+	#about { padding: 3rem 0 1.5rem }
 }
 
 @media screen and (max-height:949px) and (min-height: 768px) and (min-width:1000px){
-	#hero { height: 55vh }
-	#about { height: 45vh }
+	#hero { height: 60vh }
+	#about { height: 40vh }
 }
 
 @media screen and (min-height:950px) and (min-width:1000px){
 	#hero { height: 65vh }
 	#about { height: 35vh }
+}
+
+@media screen and (min-height:767px) and (max-height:900px) and (min-width:1000px){
+	#links {
+		position: absolute;
+		bottom: 20px;
+		left: 0
+	}
 }
 
 @media screen and (min-width:751px){
@@ -322,7 +324,7 @@ svg { fill: #fff }
 
 @media screen and (max-width:1000px){
 	#caption {
-		padding: 5%;
+		padding: 10%;
 		left: 0;
 		align-items: center;
 		text-align: center;
@@ -362,6 +364,18 @@ svg { fill: #fff }
 	#menu-toggler { right: 20px }
 }
 
+@media screen and (max-width: 580px){
+	#caption h1 {
+		font-size: 6vw;
+		line-height: 8vw;
+	}
+	#caption h1 span {
+		font-size: 8vw;
+		line-height: 9vw;
+	}
+	#caption h1 span { text-transform: uppercase }
+}
+
 @media screen and (max-width: 485px){
 	#contact .col {
 		flex: 0 0 100%;
@@ -373,14 +387,11 @@ svg { fill: #fff }
 		font-size: 7vw;
 		line-height: 8.5vw
 	}
-	#caption h1 {
-		font-size: 8vw;
-		line-height: 9.5vw;
-	}
-	#caption h1 span { text-transform: uppercase }
-	#contactUs {
-		right: 0;
+}
+
+@media screen and (max-width: 420px){
+	#hero .btn {
 		width: 100%;
-		text-align: center;
 	}
+	#hero .btn:first-child { margin-bottom: 6px }
 }
