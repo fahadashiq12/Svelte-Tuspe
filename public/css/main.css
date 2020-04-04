@@ -1,0 +1,383 @@
+* {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+*,
+:after,
+:before { box-sizing: border-box }
+
+html,
+body,
+.h-100 { height: 100% }
+
+#wrap {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+
+main,
+footer { flex-shrink: 0 }
+
+main { flex-grow: 1 }
+
+body {
+	width: 100vw;
+	overflow-x: hidden;
+	font:400 17px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	line-height: 1.6rem;
+	background-color: #100e17
+}
+
+body,
+.tb { color: #222 }
+
+main a:hover { transition: all .1s ease }
+
+#logo,
+#menu-toggler {
+	position: absolute;
+	top: 20px
+}
+
+#logo {
+	left: 40px;
+	width: 100px;
+	z-index: 444
+}
+
+#menu-toggler {
+    width: 52px;
+    height: 52px;
+    background: transparent;
+    border: 0;
+    right: 40px;
+    z-index: 666;
+}
+
+#menu-toggler.open {
+	border-radius: 50%;
+	background-color: #fff
+}
+
+img,
+#logo,
+#menu a,
+#menu li,
+#contactUs a,
+footer a { display: block }
+
+.hidden { display: none }
+
+img { width: 100% }
+
+#menu a,
+.btn,
+#about h3,
+h3.sub { text-transform: uppercase }
+
+#menu a,
+.tw { color: #fff }
+
+#menu {
+	width: 300px;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 555;
+	background-color: #000
+}
+
+#menu .cell,
+#contactUs .cell { align-items: center }
+
+#menu a {
+	padding: 10px;
+	border-bottom: 1px solid rgba(255,255,255,.2)
+}
+
+#menu li:last-child a { border-bottom: 0 }
+
+#hero { position: relative }
+
+#hero img,
+#partners img {
+	height: 100%;
+	object-fit: cover
+}
+
+.cell {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+.tc { text-align: center }
+
+	span.purple,
+	#partner a { color: #7d1eff }
+	#caption {
+		position: absolute;
+		top: 0
+	}
+	#contactUs {
+		position: absolute;
+		bottom: 20px;
+		right: 60px
+	}
+	#contactUs a {
+		display: inline-block;
+		vertical-align: center
+	}
+	#about {
+		margin: 0 auto;
+		max-width: 730px;
+		width: 90%;
+	}
+	#about h2,
+	h3.sub,
+	#latest h3 { color: #000 }
+	#about h3 {
+		font-weight: 400
+	}
+	#about h3,
+	.what,
+	.partners { color: #666 }
+	.bgw {
+		background-color: #f8f1e9
+	}
+	.pd {
+		padding-bottom: 128px
+	}
+	.row {
+		display: flex;
+		flex-wrap: wrap
+	}
+	.rr { flex-direction: row-reverse }
+	.col,
+	.col-3,
+	.col-4 {
+		position: relative;
+		width: 100%;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		-webkit-box-flex: 0
+	}
+	.col {
+		flex-basis: 0;
+		flex-grow: 1;
+		max-width: 100%;
+	}
+	.col-3 {
+		flex: 0 0 25%;
+		max-width: 25%
+	}
+	.col-4 {
+		flex: 0 0 33.3333%;
+		max-width: 33.3333%
+	}
+	.mb { margin-bottom: 1.5rem }
+	.col-3 .content,
+	.col-4 .content {
+		height: 100%;
+		border: 1px solid #312d3c;
+		border-radius: 10px;
+		overflow: hidden
+	}
+	.pad { padding: 1.5rem }
+	h3.sub {
+		font-size: 1.4rem
+	}
+	.mx {
+		margin-left: auto;
+		margin-right:  auto
+	}
+	.w9 { width: 95% }
+	#featured,
+	#latest {
+		padding-bottom: 1.5rem;
+		max-width: 1400px
+	}
+	#latest_info {
+		padding: 1.5rem 0 4rem;
+		max-width: 600px
+	}
+	#partners { padding: 3rem 0 70px }
+	#partners .inner { max-width: 1000px }
+	p { margin-top: 15px }
+	.btn {
+		display: inline-block;
+		padding: 6px 25px;
+		border: 1px solid
+	}
+	figcaption {
+		padding: 1rem 1.5rem;
+		line-height: 1.4rem
+	}
+	figcaption h3 { margin-bottom: 5px }
+
+#contact {
+	box-shadow: 0 0 15px 3px rgba(0,0,0,.3);
+	background: linear-gradient(135deg,#2bb4c5 0,#3c5ca2 100%);
+	border: 1px solid #312d3c;
+	border-radius: 8px;
+	overflow: hidden;
+	max-width: 1000px;
+	margin-top: -42px;
+	padding: 1rem 0;
+}
+
+footer h4 { font-size: 1.2rem }
+
+footer { padding: 0 3% 1rem }
+
+#contactUs a,
+#socialmedia a {
+	border: 1px solid #999;
+	padding: 4px;
+	border-radius: 50%
+}
+footer li { display: inline-block }
+#contactUs a,
+#socialmedia a {
+	width: 48px;
+	height: 48px
+}
+
+#contactUs a:hover,
+#socialmedia a:hover {
+	background-color: #7d1eff;
+	border-color: #000;
+	border-radius: 50%;
+}
+
+#slogan h4 {
+	margin: 3rem auto;
+	font-style: oblique;
+}
+
+svg { fill: #fff }
+
+.id-0 { margin-top: -100px }
+
+@media screen and (max-height: 767px){
+	#hero { height: 100vh }
+}
+
+@media screen and (max-height:949px) and (min-height: 768px) and (min-width:1000px){
+	#hero { height: 55vh }
+	#about { height: 45vh }
+}
+
+@media screen and (min-height:950px) and (min-width:1000px){
+	#hero { height: 65vh }
+	#about { height: 35vh }
+}
+
+@media screen and (min-width:751px){
+	.id-1 { margin-top: -100px }
+}
+
+@media screen and (min-width:1001px){
+	#caption {
+		max-width: 666px;
+		left: 5vw;
+	}
+	#caption h1 {
+		font-size: 3.5rem;
+		line-height: 3.8rem
+	}
+	h2 {
+		font-size: 2.8rem;
+		line-height: 3rem
+	}
+}
+
+@media screen and (min-width: 1281px){
+	.id-2 { margin-top: -100px }
+}
+
+@media screen and (max-width: 1280px){
+	.col-4 {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.col-3 {
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+	}
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1000px){
+	#latest .col-3:last-child { display: none }
+}
+
+@media screen and (max-width:1000px){
+	#caption {
+		padding: 5%;
+		left: 0;
+		align-items: center;
+		text-align: center;
+	}
+	#caption .content { max-width: 600px }
+	#caption h1,
+	h2 {
+		font-size: 2.4rem;
+		line-height: 2.8rem;
+	}
+	.col-3,
+	#contact .col {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	#about { padding: 50px 0 35px }
+}
+
+@media screen and (max-width: 760px){
+	.col-4,
+	#partners .col {
+		flex: 0 0 100%;
+		max-width: 100%
+	}
+	#hero { height: 100vh }
+	#caption,
+	#menu .cell { max-height: 80vh }
+	#featured h3 { text-align: center }
+}
+
+@media screen and (max-width: 620px){
+	.col-3 {
+		flex: 0 0 100%;
+		max-width: 100%
+	}
+}
+
+@media screen and (max-width: 485px){
+	#contact .col {
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin-bottom: 8px
+	}
+	#contact .col:last-child { margin-bottom: 0 }
+	#about h2 {
+		font-size: 7vw;
+		line-height: 8.5vw
+	}
+	#caption h1 {
+		font-size: 8vw;
+		line-height: 9.5vw;
+	}
+	#caption h1 span { text-transform: uppercase }
+	#contactUs {
+		right: 0;
+		width: 100%;
+		text-align: center;
+	}
+}

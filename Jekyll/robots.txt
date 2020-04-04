@@ -1,2 +1,0 @@
-Sitemap: https://amp.tuspe.com/sitemap.xml
-Sitemap: https://tuspe.com/sitemap.xml
