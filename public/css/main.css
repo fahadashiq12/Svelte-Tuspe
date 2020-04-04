@@ -358,6 +358,8 @@ svg { fill: #fff }
 		flex: 0 0 100%;
 		max-width: 100%
 	}
+	#logo { left: 20px }
+	#menu-toggler { right: 20px }
 }
 
 @media screen and (max-width: 485px){
