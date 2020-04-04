@@ -38,24 +38,25 @@ body,
 main a:hover { transition: all .1s ease }
 
 #logo,
-#menu-toggler {
-	position: absolute;
-	top: 20px
-}
+#menu-toggler { top: 20px }
 
 #logo {
+	position: absolute;
 	left: 40px;
 	width: 100px;
 	z-index: 444
 }
 
 #menu-toggler {
-    width: 52px;
-    height: 52px;
-    background: transparent;
-    border: 0;
-    right: 40px;
-    z-index: 666;
+	position: fixed;
+	width: 56px;
+	height: 52px;
+	background: #7d1eff;
+	border: 0;
+	right: 40px;
+	z-index: 666;
+	padding-top: 4px;
+	border-radius: 4px;
 }
 
 #menu-toggler.open {
