@@ -92,27 +92,29 @@
 			</div>
 		</div>
 	</div>
-	<div id="featured" class="row mx w9">
-		{#each services as item, i}
-			<div class={"col-4 mb id-"+ i}>
-				<div class="content bgw">
-					<picture>
-						<source srcset={"/images/work-"+ item.id +".webp"} type="image/webp">
-						<source srcset={"/images/work-"+ item.id +".jpg"} type="image/jpeg">
-						<img src={"/images/work-"+ item.id +".jpg"} alt={item.img_alt}>
-					</picture>
-					<div class="pad">
-						<h3 class="sub">{item.title}</h3>
-						<p>{item.summary}</p>
+	<div id="featured" class="container mx">
+		<div class="row">
+			{#each services as item, i}
+				<div class={"col-4 mb id-"+ i}>
+					<div class="content bgw">
+						<picture>
+							<source srcset={"/images/work-"+ item.id +".webp"} type="image/webp">
+							<source srcset={"/images/work-"+ item.id +".jpg"} type="image/jpeg">
+							<img src={"/images/work-"+ item.id +".jpg"} alt={item.img_alt}>
+						</picture>
+						<div class="pad">
+							<h3 class="sub">{item.title}</h3>
+							<p>{item.summary}</p>
+						</div>
 					</div>
 				</div>
-			</div>
-		{/each}
+			{/each}
+		</div>
 	</div>
 </section>
 
-<section id="latest" class="tc mx w9">
-	<div id="latest_info" class="tw mx w9">
+<section id="latest" class="tc container mx">
+	<div id="latest_info" class="tw mx">
 		<h2>Uusimmat toteutukset</h2>
 		<p>Viimeisimmät projektit missä olemme olleet kumppanien kanssa mukana. Toteutamme kymmeniä projekteja vuodessa.</p>
 		<!-- <p><a class="btn tw" href="/referenssit" title="Tyytyväisiä asiakkaita">Tutustu referensseihin</a></p> -->
@@ -120,13 +122,13 @@
 	<div class="row">
 		{#each latest as item}
 			<a class="col-3 ref mb" href={item.link} target="_blank" rel="noopener">
-				<figure class="content">
+				<figure class="content bgw">
 					<picture>
 						<source srcset={"/images/ref-"+ item.img +".webp"} type="image/webp">
 						<source srcset={"/images/ref-"+ item.img +".jpg"} type="image/jpeg">
 						<img src={"/images/ref-"+ item.img +".jpg"} alt={item.img_alt}>
 					</picture>
-					<figcaption class="bgw">
+					<figcaption>
 						<h3 class="sub">{item.site}</h3>
 						<div class="what"><small>{item.what}</small></div>
 						<div class="partners"><small>{item.partners}</small></div>
@@ -137,31 +139,18 @@
 	</div>
 </section>
 
-<section id="partners" class="bgw mx">
-	<div class="inner mx">
-		<div id="partner" class="row">
-			<div class="col">
-				<picture>
-					<source srcset="/images/partners.webp" type="image/webp">
-					<source srcset="/images/partners.jpg" type="image/jpeg">
-					<img src="/images/partners.jpg" alt="">
-				</picture>
-			</div><div class="col"><div class="cell">
+<section id="partners" class="bgw">
+	<div class="container mx">
+		<div class="row">
+			<div id="partner" class="col mb">
 				<h3 class="sub">Palveluja alihankintana</h3>
 				<p>Kumppaneita, ei kilpailijoita! Haemme aktiivisesti uusia kumppaneita asiakashankintaan ja erilaisten palveluiden toteuttamiseen.</p>
 				<p><a href="mailto:myynti@tuspe.com" title="Lähetä sähköpostia ja kehitetään palveluita yhdessä" rel="nofollow">Ota rohkeasti yhteyttä</a> ja kerro teidän ydinosaamisesta. Mietitään miten voisimme kehittää molempien palveluita ja myyntiä. Hyödynnä myös palveluidemme reilut kumppanuusalennukset.</p>
-			</div></div>
-		</div>
-		<div id="internship" class="row rr">
-			<div class="col">
-				<picture>
-					<source srcset="/images/internship.webp" type="image/webp">
-					<source srcset="/images/internship.jpg" type="image/jpeg">
-					<img src="/images/internship.jpg" alt="">
-				</picture>
-			</div><div class="col"><div class="cell">
-				<h3 class="sub">Koulusta työharjoitteluun?</h3><p>Haluamme olla aktiivisesti mukana nuorten oppimisessa ja uusien alan tähtien kehityksessä. Kysy harjoittelupaikkaa suoraan tai koulun kautta. Meillä pääsee koodaamaan ja ylläpitämään palveluita eikä tarvitse olla kantamassa kahvia!</p>
-			</div></div>
+			</div>
+			<div id="internship" class="col mb">
+				<h3 class="sub">Koulusta työharjoitteluun?</h3>
+				<p>Haluamme olla aktiivisesti mukana nuorten oppimisessa ja uusien alan tähtien kehityksessä. Kysy harjoittelupaikkaa suoraan tai koulun kautta. Meillä pääsee koodaamaan ja ylläpitämään palveluita eikä tarvitse olla kantamassa kahvia!</p>
+			</div>
 		</div>
 	</div>
 </section>
