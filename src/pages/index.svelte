@@ -35,6 +35,13 @@
 	]
 	let latest = [
 		{
+			site: "KoneJönnit",
+			what: "Verkkosivusto, Nettix",
+			partners: "Molentum Oy",
+			link: "https://www.konejonnit.fi/",
+			img: "processwire-konejonnit-2020",
+			img_alt: "Joensuussa sijaitseva täyden palvelun koneliike. Pienkoneet puutarhaan, metsään, vesille ja teille! Ammattitaitoinen huolto- ja varaosapalvelu!"
+		}, {
 			site: "Omamuutto",
 			what: "Verkkokauppa, vuokraus",
 			partners: "Molentum Oy",
