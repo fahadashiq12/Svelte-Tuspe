@@ -64,12 +64,21 @@
 			img_alt: "Your home reflects all the beauty in your life. At Lennol we dare to dream."
 		}
 	]
-	let title = "Tuspe Design"
-	let summary = "Tuspe on raumalainen verkkosivustojen ja verkkokauppojen suunnitteluun ja toteutukseen sekä asiantuntevaan Google-hakukoneoptimointiin erikoistunut yritys."
+	let title = "Tuspe Design Oy"
+	let summary = "Digitoimisto Tuspe Design Oy toteuttaa yritykselle upeat visuaaliset ja asiakkaita puhuttelevat verkkosivut sekä varmistaa sivuston näkyvyyden hakukoneoptimoinnilla."
+	let img_alt = "Tuspe Design Oy toteuttaa yrityksesi verkkokaupan, verkkosivut ja kaiken siihen liittyvän."
 </script>
 
 <svelte:head>
-    <title>Tuspe Design - Se parempi digitoimisto</title>
+    <title>{title} - Se parempi digitoimisto</title>
+	<meta name="description" content={summary}>
+	<meta property="og:site_name" content={title}>
+	<meta property="og:title" content={title}>
+	<meta property="og:image:alt" content={img_alt}>
+	<meta property="og:description" content={summary}>
+	<meta name="twitter:title" content={summary}>
+	<meta name="twitter:description" content={summary}>
+	<meta name="twitter:image:alt" content={img_alt}>
 </svelte:head>
 
 <section id="hero">
@@ -151,8 +160,8 @@
 		<div class="row">
 			<div id="partner" class="col mb">
 				<h3 class="sub">Palveluja alihankintana</h3>
-				<p>Kumppaneita, ei kilpailijoita! Haemme aktiivisesti uusia kumppaneita asiakashankintaan ja erilaisten palveluiden toteuttamiseen.</p>
-				<p><a href="mailto:myynti@tuspe.com" title="Lähetä sähköpostia ja kehitetään palveluita yhdessä" rel="nofollow">Ota rohkeasti yhteyttä</a> ja kerro teidän ydinosaamisesta. Mietitään miten voisimme kehittää molempien palveluita ja myyntiä. Hyödynnä myös palveluidemme reilut kumppanuusalennukset.</p>
+				<p>Haluamme olla kumppaneita, ei kilpailijoita! Haemme aktiivisesti uusia kumppaneita asiakashankintaan ja erilaisten palveluiden toteuttamiseen. Haluamme tarjota asiakkaille mahdollisimman kattavan kokonaisuuden palveluita.</p>
+				<p><a href="mailto:myynti@tuspe.com" title="Lähetä sähköpostia ja kehitetään palveluita yhdessä" rel="nofollow">Ota rohkeasti yhteyttä</a> ja kerro teidän ydinosaamisesta.</p>
 			</div>
 			<div id="internship" class="col mb">
 				<h3 class="sub">Koulusta työharjoitteluun?</h3>
