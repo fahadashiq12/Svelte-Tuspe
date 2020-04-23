@@ -1,9 +1,9 @@
 import svelte from 'rollup-plugin-svelte';
-import resolve from '@rollup/plugin-node-resolve';
+import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
+import babel from 'rollup-plugin-babel';
 import { terser } from 'rollup-plugin-terser';
-import sass from 'node-sass';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -21,9 +21,7 @@ export default {
 			dev: !production,
 			// we'll extract any component CSS out into
 			// a separate file — better for performance
-			css: css => {
-				css.write('public/build/bundle.css');
-			},
+			css: css => {},
 			preprocess: {
 				style: ({ content, attributes }) => {
 					if (attributes.type !== 'text/scss') return;
@@ -46,6 +44,13 @@ export default {
 				}
 			}
 
+		}),
+		production && babel({
+			exclude: [
+				// 'node_modules/**',
+				/\/core-js\//,
+			],
+			extensions: ['.svelte', '.js', '.jsx', '.es6', '.es', '.mjs', '.ts']
 		}),
 
 		// If you have external dependencies installed from
