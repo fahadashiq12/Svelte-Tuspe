@@ -17,40 +17,7 @@ export default {
 	},
 	plugins: [
 		svelte({
-			// enable run-time checks when not in production
-			dev: !production,
-			// we'll extract any component CSS out into
-			// a separate file — better for performance
-			css: css => {},
-			preprocess: {
-				style: ({ content, attributes }) => {
-					if (attributes.type !== 'text/scss') return;
-
-					return new Promise((fulfil, reject) => {
-						sass.render({
-							data: content,
-							includePaths: ['src'],
-							sourceMap: true,
-							outFile: 'x' // this is necessary, but is ignored
-						}, (err, result) => {
-							if (err) return reject(err);
-
-							fulfil({
-								code: result.css.toString(),
-								map: result.map.toString()
-							});
-						});
-					});
-				}
-			}
-
-		}),
-		production && babel({
-			exclude: [
-				// 'node_modules/**',
-				/\/core-js\//,
-			],
-			extensions: ['.svelte', '.js', '.jsx', '.es6', '.es', '.mjs', '.ts']
+			dev: !production
 		}),
 
 		// If you have external dependencies installed from
@@ -74,6 +41,28 @@ export default {
 
 		// If we're building for production (npm run build
 		// instead of npm run dev), minify
+		babel({
+			extensions: [ '.js', '.mjs', '.html', '.svelte' ],
+			runtimeHelpers: true,
+			exclude: [ 'node_modules/@babel/**' ],
+			presets: [
+				[
+				'@babel/preset-env',
+				{
+					targets: '> 0.25%, not dead'
+				}
+				]
+			],
+			plugins: [
+				'@babel/plugin-syntax-dynamic-import',
+				[
+				'@babel/plugin-transform-runtime',
+				{
+					useESModules: true
+				}
+				]
+			]
+		}),
 		production && terser()
 	],
 	watch: {
