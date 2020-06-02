@@ -54,7 +54,7 @@
 			site: "Lennol",
 			what: "Verkkokauppa, Lemonsoft",
 			partners: "Dataline Group Oy",
-			link: "https://lennol.fi/",
+			link: "https://www.lennol.fi/",
 			img: "processwire-lennol-2019",
 			img_alt: "Your home reflects all the beauty in your life. At Lennol we dare to dream."
 		}
