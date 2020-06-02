@@ -12,11 +12,6 @@
 			id: "tuspeshop",
 			alt: "Tehosta myyntiä paremmalla verkkokaupalla"
 		}, {
-			title: "Ratsukko",
-			summary: "Oletko saanut tarpeeksi soitoista ja sähköposteista talliyrittäjänä tai tallin asiakkaana? Ei hätää! Varauskalenteri Ratsukko säästää aikaa ja vaivaa tarjoten reaaliaikaisen järjestelmän missä asiakkaat voivat itse hoitaa tuntien varaukset ja poistot. Hyppää ratsaille kohti helpompaa arkea!",
-			id: "ratsukko",
-			alt: "Varauskalenteri Ratsukko säästää aikaa, vaivaa ja rahaa!"
-		}, {
 			title: "Urheiluseurat",
 			summary: "Monipuolisilla ominaisuuksilla varustettu urheilualusta sopii kaiken kokoisille urheiluseuroille. Tarvittaessa mukaan myös verkkokauppa. Päivitys helppoa ja nopeaa sekä olemme automatisoineet mahdollisimman paljon toimintoja. Oletko valmis lähtemään mukaan voittajan tiimiin?",
 			id: "sport",
