@@ -1,0 +1,178 @@
+@font-face {
+	font-family: Effra;
+	src: local('Effra Light'), local('Effra-Light'),
+	url('/fonts/Effra-Light.woff2') format('woff2'),
+	url('/fonts/Effra-Light.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap
+}
+body {
+	line-height: 1.4
+}
+.effra {
+	font-family: Effra;
+	font-weight: 300
+}
+
+.sub1,
+.sub2 { line-height: 1.1 }
+
+#page h1 {
+	margin-bottom: 1.5rem;
+	line-height: 1
+}
+.bgLight {
+	background-color: #f2f2f2;
+	border: 1px ridge #ccc
+}
+ol,
+section ul { margin-top: 15px }
+ol,
+section ul { margin-bottom: 15px }
+
+.sub1.m1 { margin-bottom: 1.5rem }
+
+.howNum {
+	color: rgba(0 0 0 / 3%)
+}
+
+.sub1.m3,
+#page { margin-bottom: 3rem }
+
+#references { margin-top: 3rem }
+
+section ul,
+section ol { margin-left: 20px }
+
+section li { margin-bottom: 8px }
+
+#references h2 { font-size: 1.5rem }
+figcaption {
+	padding: 1.5rem;
+}
+#buttons,
+#about .btn { margin-top: 1.5rem }
+
+main p a:not(.btn):hover,
+main li a:hover,
+footer p a:hover,
+#home h1 a.blue:hover {
+	text-decoration: underline;
+}
+#about {
+	max-width: 1440px
+}
+
+@media screen and (min-width:1250px), (min-height:760px){
+	#page .title { font-size: 4rem }
+	#page .sub1 { font-size: 3.5rem }
+	#page .sub2 { font-size: 2rem }
+}
+
+@media screen and (max-width:1250px), (max-height:760px){
+	#page .title { font-size: clamp(2rem, 3rem, 10vw) }
+	#page .sub1 { font-size: clamp(1.8rem, 2.4rem, 10vw) }
+	#page .sub2 { font-size: 1.6rem }
+	#about .txt { padding-top: 3rem }
+}
+
+@media screen and (max-width:1250px) and (min-width:760px){
+	#about .txt { max-width: 700px }
+}
+
+@media screen and (min-width:1000px) and (min-height:650px){
+	#about {
+		height: calc(100vh - 4rem);
+		width: calc(100vw - 4rem);
+		margin: 2rem;
+		overflow: hidden;
+		display: grid;
+		grid-template-columns: 1fr 1fr
+	}
+	#about .txt {
+		padding: 0 2rem;
+		height: calc(100vh - 4rem)
+	}
+	#about .content { max-width:650px }
+	#about,
+	#about .txt { min-height: 650px }
+	#about img { object-position: left }
+}
+
+@media screen and (max-width:999px), (max-height:649px){
+	#about .img {
+		height: 260px
+	}
+	#about img { object-position: 25% }
+}
+
+@media screen and (min-width:1000px){
+	.howGrid {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 2rem
+	}
+	.howNum {
+		top: -90px;
+		left: -1.5rem;
+		font-size: 12rem
+	}
+}
+
+@media screen and (max-width:1000px){
+	.how + .how { margin-top:1.5rem }
+	.howNum {
+		top: -30px;
+		right: -.5rem;
+		font-size: 5rem
+	}
+}
+
+@media screen and (min-width:760px){
+	#references {
+		display: grid;
+		grid-gap: 2.5rem
+	}
+	#references figcaption {
+		bottom: -1.5rem;
+		right: -1.5rem
+	}
+}
+
+@media screen and (min-width:1400px){
+	#references { grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)) }
+	.fluid { max-width: 1400px }
+}
+
+@media screen and (max-width:1400px) and (min-width:1000px){
+	#references { grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)) }
+	.fluid { max-width: 900px }
+}
+
+@media screen and (max-width:1000px) and (min-width:760px){
+	#references { grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)) }
+	.fluid { max-width: 630px }
+}
+
+@media screen and (max-width:760px){
+	#references a {
+		max-width: 400px
+	}
+	#references a + a { margin-top: 1.5rem }
+	#references figcaption {
+		bottom: -1rem;
+		right: -1rem;
+	}
+	#about .txt {
+		max-width: calc(100vw - 4rem)
+	}
+}
+
+@media screen and (min-width:350px){
+	#references figcaption {
+		position: absolute;
+		width: 285px;
+		box-shadow: 2px 2px 5px 0 rgba(0 0 0 / 30%);
+		border-radius: 10px
+	}
+}
