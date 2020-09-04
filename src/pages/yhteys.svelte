@@ -94,6 +94,7 @@
 		#about p + h3 { margin-top: 20px }
 		#about h3 { font-size: 1.2rem }
 		.extraSmall { max-width: 400px }
+		#regs { margin-top: 15px }
 	</style>
 </svelte:head>
 
@@ -128,7 +129,8 @@
 			<div class="mb"><input id="phone" type="text" name="phone" minlength="5" maxlength="15" placeholder="Puhelin" required></div>
 			<div class="mb"><input id="email" type="email" name="email" minlength="6" maxlength="50" placeholder="Sähköposti" required></div>
 			<div class="mb"><textarea id="message" name="message" maxlength="1000" placeholder="Miten voimme auttaa?" required></textarea></div>
-			<div class="tc"><button class="up" type="submit">Lähetä</button></div>
+			<div class="tc mb"><button class="up" type="submit">Lähetä</button></div>
+			<div id="regs"><small><a href="/tietosuoja" rel="nofollow">rekisteri- ja tietosuojaseloste</a></small></div>
 		</form>
 		{:else}
 		<p>Kiitos erinomaisesta valinnastasi. Olemme yhteydessä mahdollisimman pian.</p>

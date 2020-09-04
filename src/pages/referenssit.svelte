@@ -169,7 +169,7 @@
 	<link rel="stylesheet" href="/page.css">
 </svelte:head>
 
-<div id="page" class="p3">
+<div id="page" class="refs">
 
 <div class="container mxa small tc">
 	<h1 class="effra title">Näistä töistämme olemme erityisen ylpeitä</h1>

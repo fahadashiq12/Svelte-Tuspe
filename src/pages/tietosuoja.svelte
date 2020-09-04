@@ -1,3 +1,16 @@
+<svelte:head>
+	<link rel="stylesheet" href="/page.css">
+	<meta name="robots" content="noindex,nofollow">
+	<style>
+		#sec h2{
+			font-size:1.2rem;
+			margin-bottom:15px
+		}
+		#sec p + h2 { margin-top: 2rem }
+	</style>
+</svelte:head>
+<div id="page" class="refs"><div id="sec" class="container mxa small">
+<h1 class="effra title">Rekisterit ja tietosuojat</h1>
 <p>Yhdistetty rekisteriseloste ja informointiasiakirja<br>Laatimispäivämäärä: 20.02.2020</p>
 <p>Henkilötietolaki (523/99) 10 § ja 24 §<br>Henkilötietolain 10 §:n mukainen rekisteriseloste on nähtävissä tuspe.com-verkkosivuilla.</p>
 
@@ -39,3 +52,4 @@ Puhelinnumero: 040 774 6121</p>
 
 <h2>11. Kävijäseuranta ja evästeet</h2>
 <p>Emme käytä evästeitä emmekä seuraa kävijöiden liikkumista sivustolla tai muualla verkossa.</p>
+</div></div>
