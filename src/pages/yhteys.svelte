@@ -38,7 +38,7 @@
 	let state
 	async function sendSubmit(event) {
 		const formData = new FormData()
-		formData.append('name', name.value)
+		formData.append('name', names.value)
 		formData.append('email', email.value)
 		formData.append('phone', phone.value)
 		formData.append('body', message.value)
@@ -124,7 +124,7 @@
 	<div class="container mxa extraSmall tc">
 		{#if !state}
 		<form on:submit|preventDefault={sendSubmit}>
-			<div class="mb"><input id="name" type="text" name="name" minlength="2" maxlength="30" placeholder="Nimi / yritys" required></div>
+			<div class="mb"><input id="name" type="text" name="names" minlength="2" maxlength="30" placeholder="Nimi / yritys" required></div>
 			<div class="mb"><input id="phone" type="text" name="phone" minlength="5" maxlength="15" placeholder="Puhelin" required></div>
 			<div class="mb"><input id="email" type="email" name="email" minlength="6" maxlength="50" placeholder="Sähköposti" required></div>
 			<div class="mb"><textarea id="message" name="message" maxlength="1000" placeholder="Miten voimme auttaa?" required></textarea></div>
