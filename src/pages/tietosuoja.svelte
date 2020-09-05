@@ -10,7 +10,7 @@
 	</style>
 </svelte:head>
 <div id="page" class="refs"><div id="sec" class="container mxa small">
-<h1 class="effra title">Rekisterit ja tietosuojat</h1>
+<h1 class="w3">Rekisteri- ja tietosuojaseloste</h1>
 <p>Yhdistetty rekisteriseloste ja informointiasiakirja<br>Laatimispäivämäärä: 20.02.2020</p>
 <p>Henkilötietolaki (523/99) 10 § ja 24 §<br>Henkilötietolain 10 §:n mukainen rekisteriseloste on nähtävissä tuspe.com-verkkosivuilla.</p>
 
