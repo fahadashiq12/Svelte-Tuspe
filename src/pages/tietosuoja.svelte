@@ -7,18 +7,9 @@
 	metatags.canonical = url
 	metatags["twitter:card"] = "summary_large_image"
 	metatags["twitter:title"] = title
+	metatags["robots"] = "noindex"
 </script>
-<svelte:head>
-	<link rel="stylesheet" href="/page.css">
-	<meta name="robots" content="noindex,nofollow">
-	<style>
-		#sec h2{
-			font-size:1.2rem;
-			margin-bottom:15px
-		}
-		#sec p + h2 { margin-top: 2rem }
-	</style>
-</svelte:head>
+
 <div id="page" class="refs"><div id="sec" class="container mxa small">
 <h1 class="w3">{title}</h1>
 <p>Yhdistetty rekisteriseloste ja informointiasiakirja<br>Laatimispäivämäärä: 20.02.2020</p>
