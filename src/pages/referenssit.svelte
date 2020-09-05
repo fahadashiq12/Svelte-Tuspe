@@ -165,10 +165,6 @@
 	let ref = "/images/references/ref-"
 </script>
 
-<svelte:head>
-	<link rel="stylesheet" href="/page.css">
-</svelte:head>
-
 <div id="page" class="refs">
 
 <div class="container mxa small tc">

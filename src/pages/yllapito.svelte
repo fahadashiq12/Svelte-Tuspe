@@ -52,12 +52,14 @@
 			<li>Varmuuskopiointi kahdesti päivässä</li>
 			<li>Palautus aikaisempaan versioon varmuuskopiosta</li>
 			<li>Pienet päivitykset kotisivuille (alle 15 min)</li>
+			<li>SSL-sertifikaatti (https)</li>
+			<li>Verkkokauppaan kehitetyt uudet ominaisuudet ja päivitykset.</li>
+			<li>Alennetut hinnat uusille projekteille.</li>
 			<li>Sisällönhallintaohjelmien ja niiden moduulien päivitykset</li>
 			<li>Aina uusimpia paketteja ja suojausia käyttävä palvelin</li>
 			<li><a href="/verkkotunnukset">Verkkotunnus</a> (domain) ensimmäiseksi vuodeksi (esim. fi tai com)</li>
 			<li>Tarvittaessa nimipalvelut verkkotunnukselle (2)</li>
 			<li>Tekninen tuki + hyvät vinkit tulevaisuudelle</li>
-			<li>SSL-sertifikaatti (https)</li>
 		</ul>
 		<p>Hoidamme tarvittaessa myös yrityksesi sähköpostipalvelut kuntoon.<br>Meiltä onnistuvat omalla verkkotunnuksella ilmaiset Gmail tai Outlook sekä maksulliset <a href="https://gsuite.google.fi/intl/fi/pricing.html" target="_blank" rel="noopener">Google GSuite</a> tai <a href="https://www.microsoft.com/fi-fi/microsoft-365/enterprise/compare-office-365-plans" target="_blank" rel="noopener">Microsoft Office 365</a>. Myös käyttöopastusta.</p>
 		<p>Palvelimilla käytössä peilaava RAID-levy sekä palvelimien tarjoaja, <a href="https://www.ovh-hosting.fi/" target="_blank" rel="noopener" hreflang="fi">OVH</a>, vamistaa 24/7 palvelimien laitteiston toimivuuden päivystävällä teknisellä tiimillä. He reagoivat heti jos palvelimissa havaitaan ongelmia.</p>

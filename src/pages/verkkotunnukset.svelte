@@ -12,10 +12,6 @@
 	metatags["twitter:description"] = desc
 </script>
 
-<svelte:head>
-	<link rel="stylesheet" href="/page.css"> 
-</svelte:head>
-
 <div id="page">
 
 <section id="about" class="twoGrid">

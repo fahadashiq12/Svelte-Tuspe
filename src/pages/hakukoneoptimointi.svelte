@@ -15,10 +15,6 @@
 	metatags["twitter:image"] = img
 </script>
 
-<svelte:head>
-	<link rel="stylesheet" href="/page.css"> 
-</svelte:head>
-
 <div id="page">
 
 <section id="about">

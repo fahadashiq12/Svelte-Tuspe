@@ -22,10 +22,6 @@
 	]
 </script>
 
-<svelte:head>
-	<link rel="stylesheet" href="/home.css"> 
-</svelte:head>
-
 <div id="home">
 
 <div class="container mxa small tc p3">
