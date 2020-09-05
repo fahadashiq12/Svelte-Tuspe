@@ -112,16 +112,16 @@
 	</div>
 	<div class="txt cell mxa">
 		<div class="content">
-			<h1 class="effra title">Yhteystiedot</h1>
-			<h3>Tuspe Design Oy</h3><p>Petäjäpolku 11-15 K 70<br>37130 Nokia<br>3129423-2</p>
-			<h3>Timo Anttila</h3><p>Teknologiajohtaja<br><a class="cw" href="mailto:myynti@tuspe.com" rel="nofollow">myynti@tuspe.com</a><br><a class="cw" href="tel:+358407746121" rel="nofollow">040 774 6121</a></p>
-			<h3>Urheiluseurat</h3><p><a href="mailto:myynti@dataline.fi">myynti@dataline.fi</a><br><a href="tel:+358400273150" rel="nofollow">0400 273 150</a></p>
+			<h1 class="w3">Yhteystiedot</h1>
+			<h3 class="w3">Tuspe Design Oy</h3><p>Petäjäpolku 11-15 K 70<br>37130 Nokia<br>3129423-2</p>
+			<h3 class="w3">Timo Anttila</h3><p>Teknologiajohtaja<br><a class="cw" href="mailto:myynti@tuspe.com" rel="nofollow">myynti@tuspe.com</a><br><a class="cw" href="tel:+358407746121" rel="nofollow">040 774 6121</a></p>
+			<h3 class="w3">Urheiluseurat</h3><p><a href="mailto:myynti@dataline.fi">myynti@dataline.fi</a><br><a href="tel:+358400273150" rel="nofollow">0400 273 150</a></p>
 		</div>
 	</div>
 </section>
 
 <section id="hitMe" class="p3">
-	<div class="container mxa small tc"><h2 class="effra sub1 m1">Valmiina kehittämään kotisivuja tai kuuntelemaan ilmaisia vinkkejä?</h2></div>
+	<div class="container mxa small tc"><h2 class="w3 sub1">Valmiina kehittämään kotisivuja tai kuuntelemaan ilmaisia vinkkejä?</h2></div>
 	<div class="container mxa extraSmall tc">
 		{#if !state}
 		<form on:submit|preventDefault={sendSubmit}>
@@ -139,7 +139,7 @@
 </section>
 
 <section id="partners" class="p3 mxa">
-	<div class="container mxa small tc"><h2 class="effra sub1 m1">Huippujoukko kumppaneina</h2></div>
+	<div class="container mxa small tc"><h2 class="w3 sub1">Huippujoukko kumppaneina</h2></div>
 	<div class="container mxa wide tc">
 		<div id="logos">
 		{#each sites as item}

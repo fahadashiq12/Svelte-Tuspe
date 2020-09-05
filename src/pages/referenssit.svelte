@@ -172,7 +172,7 @@
 <div id="page" class="refs">
 
 <div class="container mxa small tc">
-	<h1 class="effra title">Esimerkkejä töistämme</h1>
+	<h1 class="w3">Esimerkkejä töistämme</h1>
 	<p>{desc} Teemme suurimman osan töistämme alihankintana.</p>
 	<p><a class="btn up" href="/yhteys">Tilaa ilmainen kartoitus</a></p>
 </div>
@@ -187,7 +187,7 @@
 				<img src={ref + item.img +".webp"} alt={item.fi.img}>
 			</picture>
 			<figcaption class="bgw">
-				<h2 class="effra">{item.title}</h2>
+				<h2 class="w3">{item.title}</h2>
 				<p>{item.fi.desc}</p>
 			</figcaption>
 		</figure>
