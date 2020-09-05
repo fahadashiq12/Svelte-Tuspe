@@ -1,3 +1,13 @@
+<script>
+	import { metatags } from "@sveltech/routify"
+	let url = "https://tuspe.com/tietosuoja"
+	let title = "Rekisteri- ja tietosuojaseloste"
+	metatags.title = title +" | Tuspe Design"
+	metatags.url = url
+	metatags.canonical = url
+	metatags["twitter:card"] = "summary_large_image"
+	metatags["twitter:title"] = title
+</script>
 <svelte:head>
 	<link rel="stylesheet" href="/page.css">
 	<meta name="robots" content="noindex,nofollow">
@@ -10,7 +20,7 @@
 	</style>
 </svelte:head>
 <div id="page" class="refs"><div id="sec" class="container mxa small">
-<h1 class="w3">Rekisteri- ja tietosuojaseloste</h1>
+<h1 class="w3">{title}</h1>
 <p>Yhdistetty rekisteriseloste ja informointiasiakirja<br>Laatimispäivämäärä: 20.02.2020</p>
 <p>Henkilötietolaki (523/99) 10 § ja 24 §<br>Henkilötietolain 10 §:n mukainen rekisteriseloste on nähtävissä tuspe.com-verkkosivuilla.</p>
 
