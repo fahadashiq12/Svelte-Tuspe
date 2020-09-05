@@ -172,7 +172,7 @@
 <div id="page" class="refs">
 
 <div class="container mxa small tc">
-	<h1 class="effra title">Näistä töistämme olemme erityisen ylpeitä</h1>
+	<h1 class="effra title">Esimerkkejä töistämme</h1>
 	<p>{desc} Teemme suurimman osan töistämme alihankintana.</p>
 	<p><a class="btn up" href="/yhteys">Tilaa ilmainen kartoitus</a></p>
 </div>
