@@ -1,6 +1,9 @@
 #page .w3 { line-height: 1.1 }
 #page h1 { margin-bottom: 1.5rem }
-#page h2.sub1 { margin-bottom: 2rem }
+#page h2.sub1 {
+	font-size: clamp(2.2rem, 2.8rem, 10vw);
+	margin-bottom: 2rem
+}
 .bgLight {
 	background-color: #f2f2f2;
 	border: 1px ridge #ccc
@@ -46,14 +49,12 @@ footer p a:hover,
 }
 
 @media screen and (min-width:1251px), (min-height:761px){
-	#page h1 { font-size: 4rem }
-	#page .sub1 { font-size: 3.5rem }
+	#page h1 { font-size: 3.5rem }
 	#page .sub2 { font-size: 2rem }
 }
 
 @media screen and (max-width:1250px), (max-height:760px){
-	#page h1 { font-size: clamp(2rem, 3rem, 10vw) }
-	#page .sub1 { font-size: clamp(2.4rem, 3rem, 10vw) }
+	#page h1 { font-size: clamp(2.4rem, 3rem, 10vw) }
 	#page .sub2 { font-size: 1.6rem }
 	#about .txt { padding-top: 3rem }
 }
