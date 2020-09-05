@@ -13,7 +13,7 @@
 <footer>
 	<div class="container mxa small tc">
 		<div id="contactInfo">
-			<h3>Tuspe Design Oy</h3><p><a href="mailto:info@tuspe.com" rel="nofollow">info@tuspe.com</a><br><a href="tel:+358407746121" rel="nofollow">040 774 6121</a></p>
+			<h3 class="w3">Tuspe Design Oy</h3><p><a href="mailto:info@tuspe.com" rel="nofollow">info@tuspe.com</a><br><a href="tel:+358407746121" rel="nofollow">040 774 6121</a></p>
 		</div>
 		<div class="tc"><Social/></div>
 	</div>

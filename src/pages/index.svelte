@@ -1,7 +1,7 @@
 <script>
 	let images = [
 		{
-			title: "Kotisivut<br>yritykselle",
+			title: "Kotisivut yritykselle<br>sinun toiveillasi",
 			desc: "Ei vain ulkoisesti kaunis ratkaisu vaan toimiva kokonaisuus, joka myy.",
 			url: "/kotisivut-yritykselle",
 			img: "websites",
@@ -34,7 +34,7 @@
 
 <div id="services" class="grid container mxa wide tc">
 	{#each images as item}
-	<a class="service tc" href={item.url} title={item.title}>
+	<a class="service tc" href={item.url} title={item.alt}>
 		<figure class="rel">
 			<picture>
 				<source srcset={"/images/"+ item.img +".webp"} media="(max-width:550px)" type="image/webp">

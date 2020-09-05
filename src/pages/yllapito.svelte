@@ -22,18 +22,18 @@
 <div id="page">
 
 <section id="about">
-	<div class="img">
+	<div class="img right">
 		<picture>
-			<source srcset="/images/hosting-page-mobile.webp" media="(max-width:760px)" type="image/webp">
-			<source srcset="/images/hosting-page.webp" media="(min-width:761px)" type="image/webp">
-			<source srcset="/images/hosting-page-mobile.jpg" media="(max-width:760px)" type="image/jpeg">
-			<source srcset="/images/hosting-page.jpg" media="(min-width:761px)" type="image/jpeg">
+			<source srcset="/images/hosting-page-mobile.webp" media="(max-width:999px)" type="image/webp">
+			<source srcset="/images/hosting-page.webp" media="(min-width:1000px)" type="image/webp">
+			<source srcset="/images/hosting-page-mobile.jpg" media="(max-width:999px)" type="image/jpeg">
+			<source srcset="/images/hosting-page.jpg" media="(min-width:1000px)" type="image/jpeg">
 			<img src="/images/hosting-page.jpg" alt={title}>
 		</picture>
 	</div>
 	<div class="txt cell mxa">
 		<div class="content">
-			<h1 class="effra title">Verkkosivujen luotettavat ylläpitopalvelut</h1>
+			<h1 class="w3">Verkkosivujen luotettavat ylläpitopalvelut</h1>
 			<p>Kun verkkosivuillesi on luotettava ylläpitopalvelu, voit varmistua siitä, että sivut toimivat, niistä on varmuuskopiot ja tarvittaessa saat nopeasti pienet tai suuremmatkin sivuston muutokset niille. Älä turhaan stressaa vaan keskity huoletta omaan ydinbisnekseen.</p>
 			<p>Kaikki data on turvassa kahdella 24/7 monitoroidulla palvelimella ja voimme tarvittaessa palauttaa sivuston nopeasti varmuuskopiosta. Reiluina tyyppeinä emme veloita jokaisesta pienistä muutoksesta tai päivityksestä erikseen vaan semmoiset kuuluvat ylläpitoon.</p>
 			<p>Tsekkaa alta mitä kaikkea pakettiin kuuluu.</p>
@@ -44,7 +44,7 @@
 
 <section class="p3">
 	<div class="container mxa small">
-		<h2 class="effra sub1 tc m1">Kaikki tarvittavat palvelut</h2>
+		<h2 class="w3 sub1 tc">Kaikki tarvittavat palvelut</h2>
 		<p>Tämän kaiken saat 15€:n kuukausimaksulla (18.60€ sis. ALV). Turvallisuus ja toimivuus ovat arvokkaita asioista, mutta niiden toteutumisen ei tarvitse olla kallista kukkarollesi. Hintamme ovat pysyvästi edulliset.</p>
 		<ul>
 			<li>Rajoittamaton ja nopea liikenne</li>

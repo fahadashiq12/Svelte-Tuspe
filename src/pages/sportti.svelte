@@ -53,19 +53,18 @@
 <div id="page">
 
 <section id="about">
-	<div class="img">
+	<div class="img left">
 		<picture>
-			<source srcset="/images/sport-page-mobile.webp" media="(max-width:1000px)" type="image/webp">
-			<source srcset="/images/sport-page.webp" media="(min-width:1001px)" type="image/webp">
-			<source srcset="/images/sport-page-mobile.jpg" media="(max-width:1000px)" type="image/jpeg">
-			<source srcset="/images/sport-page.jpg" media="(min-width:1001px)" type="image/jpeg">
+			<source srcset="/images/sport-page-mobile.webp" media="(max-width:999px)" type="image/webp">
+			<source srcset="/images/sport-page.webp" media="(min-width:1000px)" type="image/webp">
+			<source srcset="/images/sport-page-mobile.jpg" media="(max-width:999px)" type="image/jpeg">
+			<source srcset="/images/sport-page.jpg" media="(min-width:1000px)" type="image/jpeg">
 			<img src="/images/sport-page.jpg" alt={title}>
 		</picture>
 	</div>
 	<div class="txt cell mxa">
 		<div class="content">
-			<h1 class="effra title">{title}</h1>
-			<p>Miltä kuulostaisi helposti muokattava urheilualusta seurallesi?</p>
+			<h1 class="w3">Monipuolinen ja helposti päivitettävä urheilusaitti</h1>
 			<p>Elämän ei pidä olla vaikeaa, kallista ja aikaa vievää seuran kotisivuja päivittäessä. Mitäs jos hoitaisimme kaikki matsit joukkuettain automaattisesti ja päivittäisimme vielä tuloksetkin pelien jälkeen? Videot? Tilastot? Check. Haluamme säästää sinun aikaasi tärkeämmälle.</p>
 			<p>Olemme kehittäneet urheilusaittimme vastaamaan seurojen tarpeita ja kehitämme sitä koko ajan paremmaksi Mestis-seurojemme avulla. Haluamme, että seurojen fanit saavat erittäin hyvän kokemuksen vierailusta sekä seurojen on helppoa päivittää ja lisätä sisältöä. Ominaisuuksia on automatisoitu niin pitkälle kuin mahdollista.</p>
 			<p>Urheilusaittimme perusominaisuuksiin kuuluvat mm. helposti luotavat uutiset, komeat pelaajaesittelyt, videot YouTubesta, tilastot ja ottelut Tilastokeskukselta, verkko- ja huutokauppa, aitioden esittelyt ja varaukset, kausipaikat sekä paljon muuta seuran elämää helpottavia ominaisuuksia.</p>
@@ -75,7 +74,7 @@
 </section>
 
 <section class="p3">
-	<div class="container mxa small tc"><h2 class="effra sub1 m1">Liitetäänkö sinunkin seurasi huippujoukkoon?</h2></div>
+	<div class="container mxa small tc"><h2 class="w3 sub1">Liitetäänkö sinunkin seurasi huippujoukkoon?</h2></div>
 	<div class="container mxa wide tc">
 		<div id="logos">
 		{#each sites as item}

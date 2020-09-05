@@ -1,25 +1,13 @@
-@font-face {
-	font-family: Montserrat;
-	src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
-	url('/fonts/Montserrat-ExtraBold.woff2') format('woff2'),
-	url('/fonts/Montserrat-ExtraBold.woff') format('woff');
-	font-weight: 800;
-	font-style: normal;
-	font-display: swap
-}
-body,
-h3 {
-	font: 400 16px Montserrat
-}
-h1,
-h2 { font-family: Montserrat; font-weight: 800 }
-#home h2 { margin-bottom: 1rem }
 #home .title {
+	font-weight: 800; 
 	font-size: clamp(1.6rem, 2.6rem, 7vw);
-	line-height: 1.2
+	line-height: 1.1
 }
+#home h2 { margin-bottom: 1rem }
 #home figcaption h2 {
+	font-weight: 700;
 	font-size: 20px;
+	line-height: 1.2
 }
 #services img { border-radius: 20px }
 #contactMe p {
@@ -58,7 +46,7 @@ h2 { font-family: Montserrat; font-weight: 800 }
 }
 @media screen and (min-width:765px){
 	#services {
-		grid-template-columns: 1fr 1fr 1fr
+		grid-template-columns: repeat(3, 1fr)
 	}
 }
 @media screen and (max-width:765px){

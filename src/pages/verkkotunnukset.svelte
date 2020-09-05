@@ -19,18 +19,18 @@
 <div id="page">
 
 <section id="about" class="twoGrid">
-	<div class="img">
+	<div class="img right">
 		<picture>
-			<source srcset="/images/websites-page-mobile.webp" media="(max-width:760px)" type="image/webp">
-			<source srcset="/images/websites-page.webp" media="(min-width:761px)" type="image/webp">
-			<source srcset="/images/websites-page-mobile.jpg" media="(max-width:760px)" type="image/jpeg">
-			<source srcset="/images/websites-page.jpg" media="(min-width:761px)" type="image/jpeg">
+			<source srcset="/images/websites-page-mobile.webp" media="(max-width:999px)" type="image/webp">
+			<source srcset="/images/websites-page.webp" media="(min-width:1000px)" type="image/webp">
+			<source srcset="/images/websites-page-mobile.jpg" media="(max-width:999px)" type="image/jpeg">
+			<source srcset="/images/websites-page.jpg" media="(min-width:1000px)" type="image/jpeg">
 			<img src="/images/websites-page.jpg" alt={title}>
 		</picture>
 	</div>
 	<div class="txt cell mxa">
 		<div class="content">
-			<h1 class="effra title">Verkkotunnus</h1>
+			<h1 class="w3">Verkkotunnus</h1>
 			<p>Verkkotunnus eli domain on sivujesi nimi ja osoite. Jos sinulla ei vielä ole verkkotunnusta, olet päätynyt oikeaan paikkaan. Meidän kauttamme voit varata erittäin kilpailukykyisellä hinnalla minkä tahansa päätteen. Olemme Traficomin jälleenmyyjä eli myös fi-tunnukset.</p>
 			<p>Meiltä saat verkkotunnuksen myös ilman muita sopimuksia sekä ilmaiset nimipalvelimet tarvittaessa sekä voimme siirtää verkkotunnuksen nykyiseltä palveluntarjoajalta meille ilman lisäkustannuksia.</p>
 			<p>Olipa tarpeesi mikä tahansa, me hoidamme sen puolestasi.</p>
@@ -41,7 +41,7 @@
 
 <section class="p3">
 	<div class="container mxa small">
-		<h2 class="effra sub1 tc m1">Huolehdimme kaiken valmiiksi</h2>
+		<h2 class="w3 sub1 tc">Huolehdimme kaiken valmiiksi</h2>
 		<ul class="ml"><li>Verkkotunnuksen rekisteröinti sinun tiedoillasi (<a href="https://www.traficom.fi/fi/viestinta/fi-verkkotunnukset/fi-verkkotunnushaku" title="Tarkista, onko haluamasi fi-verkkotunnus vapaana." target="_blank" hreflang="fi">Traficom</a> / <a href="https://www.namecheap.com/" title="Tarkista, onko haluamasi verkkotunnus vapaana." target="_blank" hreflang="en">Namecheap</a>).</li><li>Uusimme vuosittain verkkotunnuksen automaattisesti.</li><li>Ilmaiset nimipalvelimet tarvittaessa (<a href="https://www.cloudflare.com/" title="Suojaa palvelusi Cloudflaren avulla" target="_blank" hreflang="en">Cloudflare</a>).</li><li>Sähköpostiasiat kuntoon.</li><li>Verkkotunnuksien rekisteröinnissä mahdollisimman halvat hinnat sekä mahdollisesti muita rahan arvoisia vinkkejä tulevaisuudelle.</li></ul>
 		<p>Emme usko määräaikaisiin sopimuksiin vaan verkkotunnus on aina sinun eli voit koska tahansa siirtää verkkotunnuksen meiltä toiselle palveluntarjoajalle tai vaihtaa haluamasi nimipalvelimet siihen.</p>
 		<p>Hoidamme tarvittaessa myös yrityksesi sähköpostipalvelut kuntoon. Meiltä onnistuvat omalla verkkotunnuksella ilmaiset Gmail tai Outlook sekä maksulliset <a href="https://gsuite.google.fi/intl/fi/" title="Tuttu ja turvallinen Gmail yritysten tarpeisiin räätälöitynä." hreflang="fi">GSuite</a> tai <a href="https://www.office.com/?omkt=fi-FI" title="Sähköposti ja Office-sovellusten Premium-versiot" hreflang="fi">Office 365</a>. Myös käyttöopastusta.</p>

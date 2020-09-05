@@ -101,7 +101,7 @@
 <div id="page">
 
 <section id="about">
-	<div class="img">
+	<div class="img left">
 		<picture>
 			<source srcset="/images/sport-page-mobile.webp" media="(max-width:1000px)" type="image/webp">
 			<source srcset="/images/sport-page.webp" media="(min-width:1001px)" type="image/webp">

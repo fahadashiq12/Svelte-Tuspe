@@ -78,7 +78,7 @@
 <div id="page">
 
 <section id="about" class="twoGrid">
-	<div class="img">
+	<div class="img p30">
 		<picture>
 			<source srcset={hero +"-mobile.webp"} media="(max-width:999px)" type="image/webp">
 			<source srcset={hero +".webp"} media="(min-width:1000px)" type="image/webp">
@@ -89,7 +89,7 @@
 	</div>
 	<div class="txt cell mxa">
 		<div class="content">
-			<h1 class="effra title">Myyntiä 24/7 vaikka ympäri maailman</h1>
+			<h1 class="w3">Myyntiä 24/7 vaikka ympäri maailman</h1>
 			<p>Mitä jos pistetään pakettiin erittäin kustannustehokas verkkokauppa, joka taipuu yrityksesi tarpeiden mukaan ja joka on räätälöity juuri sinun yritykselle? Meiltä verkkokauppa täysin "Avaimet käteen"-palveluna, jossa teema, tuotteet ja kaikki sisältö ovat valmiina. Sinun tarvitsee vain haaveille ja me toteutamme unelmasi.</p>
 			<p>Olipa kyseessä meidän SaaS-palvelu ProcessWirelle tai WordPress-sivuston Woocommerce, saat aina mutkattoman ja toimivan ratkaisun.</p>
 			<p>Ota rohkeasti yhteyttä ja tilaa ilmainen kartoitus nykyiseen verkkokauppaan tai suunnitelma uuteen.</p>
@@ -100,7 +100,7 @@
 
 <section class="p3">
 	<div class="container mxa small">
-		<h2 class="effra sub1 tc m1">Kauppa, josta asiakkaasi lähtee ostoskassi mukanaan</h2>
+		<h2 class="w3 sub1 tc">Kauppa, josta asiakkaasi lähtee ostoskassi mukanaan</h2>
 		<p>Verkkokaupassa teknisen toteutuksen lisäksi on hyvä huomioida visuaalisuus sekä tuotteiden kertova ja informatiivinen teksti. Tuotekuvilla ja videoilla on myös suuri merkitys, sillä asiakas ostaa tuotteen varmemmin, mitä enemmän ostopäätöstä vahvistavaa tietoa siitä on tarjolla. Tekstin pitäisi olla myös mahdollisimman uniikkia sisältäen sopivasti avainsanoja. Kyllä, mahdollisimman hyviä hakusanoja pitäisi olla otsikoissa, osoitteissa ja tuotetekstissä.</p>
 		<p>Kuulostaako vaikealle? Ei hätää, meidän kautta on mahdollista tilata myös tuotekuvat ja hyvin optimoidut tekstit tuotesivuille ja muualle kauppaan. Miksi tuhlata omaa aikaa miettimiseen, jos voi jättää ongelmat ammattilaiselle ja keskittyä omaan ydinbisnekseen?</p>
 		<p>Ennen projektin alkua määrittelemme tarkkaan mitkä ovat sinun unelmasi ja teemme tarjouksen sen perusteella. Tarvittaessa graafkko tekee teemasta luonnoksen minkä perusteella koodarit koodaavat siitä kauniin, nopean ja helposti päivitettävän kokonaisuuden. Emme käytä valmiita teemoja vaan räätälöimme koodin juuri sinulle ja olemme henkilökohtaisesti vastuussa sen toimivuudesta. Lopputulos on viisaasti rakennettu myyntikanava eikä vain teknisesti kaunis toteutus.</p>
@@ -111,7 +111,7 @@
 </section>
 
 <section class="p3">
-	<div class="container mxa small tc"><h2 class="effra sub1">Muutama esimerkki ylpeydenaiheistamme</h2><p>Liitetäänkö sinunkin yrityksesi tähän huippujoukkueeseen?</p></div>
+	<div class="container mxa small tc"><h2 class="w3 sub1">Muutama esimerkki ylpeydenaiheistamme</h2><p>Liitetäänkö sinunkin yrityksesi tähän huippujoukkueeseen?</p></div>
 	<div id="references" class="container mxa fluid">
 	{#each refs as item}
 		<a class="ref block mxa" href={item.url} title={item.title} target="_blank" rel="noopener">
@@ -122,7 +122,7 @@
 					<img src={ref + item.img +".webp"} alt={item.fi.img}>
 				</picture>
 				<figcaption class="bgw">
-					<h2 class="effra">{item.title}</h2>
+					<h2 class="w3">{item.title}</h2>
 					<p>{item.fi.desc}</p>
 				</figcaption>
 			</figure>

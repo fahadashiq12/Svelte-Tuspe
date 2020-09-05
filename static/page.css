@@ -1,27 +1,6 @@
-@font-face {
-	font-family: Effra;
-	src: local('Effra Light'), local('Effra-Light'),
-	url('/fonts/Effra-Light.woff2') format('woff2'),
-	url('/fonts/Effra-Light.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap
-}
-body {
-	line-height: 1.4
-}
-.effra {
-	font-family: Effra;
-	font-weight: 300
-}
-
-.sub1,
-.sub2 { line-height: 1.1 }
-
-#page h1 {
-	margin-bottom: 1.5rem;
-	line-height: 1
-}
+#page .w3 { line-height: 1.1 }
+#page h1 { margin-bottom: 1.5rem }
+#page h2.sub1 { margin-bottom: 2rem }
 .bgLight {
 	background-color: #f2f2f2;
 	border: 1px ridge #ccc
@@ -30,8 +9,6 @@ ol,
 section ul { margin-top: 15px }
 ol,
 section ul { margin-bottom: 15px }
-
-.sub1.m1 { margin-bottom: 1.5rem }
 
 .howNum {
 	color: rgba(0 0 0 / 3%)
@@ -47,7 +24,8 @@ section ol { margin-left: 20px }
 
 section li { margin-bottom: 8px }
 
-#references h2 { font-size: 1.5rem }
+#references .w3 { font-size: 1.5rem }
+
 figcaption {
 	padding: 1.5rem;
 }
@@ -64,15 +42,15 @@ footer p a:hover,
 	max-width: 1440px
 }
 
-@media screen and (min-width:1250px), (min-height:760px){
-	#page .title { font-size: 4rem }
+@media screen and (min-width:1251px), (min-height:761px){
+	#page h1 { font-size: 4rem }
 	#page .sub1 { font-size: 3.5rem }
 	#page .sub2 { font-size: 2rem }
 }
 
 @media screen and (max-width:1250px), (max-height:760px){
-	#page .title { font-size: clamp(2rem, 3rem, 10vw) }
-	#page .sub1 { font-size: clamp(1.8rem, 2.4rem, 10vw) }
+	#page h1 { font-size: clamp(2rem, 3rem, 10vw) }
+	#page .sub1 { font-size: clamp(2.4rem, 3rem, 10vw) }
 	#page .sub2 { font-size: 1.6rem }
 	#about .txt { padding-top: 3rem }
 }
@@ -97,19 +75,22 @@ footer p a:hover,
 	#about .content { max-width:650px }
 	#about,
 	#about .txt { min-height: 650px }
-	#about img { object-position: left }
+	#about img { object-position: center }
 }
 
 @media screen and (max-width:999px), (max-height:649px){
-	#about .img {
-		height: 260px
-	}
+	#about .img { height: 260px }
 	#about img { object-position: 25% }
+	#about .img.left img { object-position: left }
+	#about .img.right img { object-position: right }
+	#about .img.p30 img { object-position: 30% }
+	#about h1,
+	#about p:last-child { text-align: center }
 }
 
 @media screen and (min-width:1000px){
 	.howGrid {
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: repeat(3, 1fr);
 		grid-gap: 2rem
 	}
 	.howNum {
