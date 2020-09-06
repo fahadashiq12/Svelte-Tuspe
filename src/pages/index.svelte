@@ -2,7 +2,7 @@
 	let images = [
 		{
 			title: "Kotisivut yritykselle<br>sinun toiveillasi",
-			desc: "Ei vain ulkoisesti kaunis ratkaisu vaan toimiva kokonaisuus, joka myy.",
+			desc: "Ei vain ulkoisesti kaunis ratkaisu vaan toimiva myyntikanava. Sinä unelmoit, me toteutamme.",
 			url: "/kotisivut-yritykselle",
 			img: "websites",
 			alt: "Mitä kaikkea hyvin myyvät kotisivut pitävät sisällään?"
