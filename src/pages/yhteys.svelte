@@ -78,7 +78,7 @@
 			margin-top: 20px
 		}
 		a.logo {
-			padding: 10px
+			padding: 10px 20px
 		}
 		a.logo img {
 			width: auto;

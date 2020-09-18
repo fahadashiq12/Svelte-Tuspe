@@ -20,6 +20,14 @@
 			url: "https://kiekko-vantaa.fi/",
 			img: "kiekkovantaa"
 		}, {
+			title: "RoKi Hockey",
+			url: "https://rokihockey.fi/",
+			img: "roki"
+		}, {
+			title: "Juniori Jokipojat",
+			url: "https://juniorijokipojat.fi/",
+			img: "juniorijokipojat"
+		}, {
 			title: "Kurra",
 			url: "https://www.kurra.fi/",
 			img: "kurra"
@@ -31,10 +39,6 @@
 			title: "Pallokerho Keski-Uusimaa",
 			url: "https://pkku.fi/",
 			img: "pkku"
-		}, {
-			title: "RoKi Hockey",
-			url: "https://rokihockey.fi/",
-			img: "roki"
 		}
 	]
 </script>
